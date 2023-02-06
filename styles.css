@@ -276,28 +276,21 @@ body {
     transition: box-shadow 0.5s ease-in-out;
     box-shadow: inset 0 0 50px rgb(0, 0, 0);
 }
-/*
-  margin: 0 auto;
-  max-width: 750px;
-  padding: 25px;
-  display: grid;
-  grid-template-columns: 1fr 3px 1fr;
-  font-family: "Fira Sans", sans-serif;
-  color: #ffffff;
-  */
 .timeline {
     margin: 0 auto;
-    margin: 120px 0 0 140px;
+    margin: 12vh 0 0 20vh;
     display: grid;
+    top: 0;
+    left: 0;
     grid-template-rows: 1fr 4px 1fr;
     font-family: "Fira Sans", sans-serif;
     color: #ffffff;
-    height: 700px;
+    height: 80vh;
     
 }
 
 .timeline-item {
-    background-color: rgba(255, 255, 255, .2);
+    background-color: rgba(255, 255, 255, .02);
     display: grid;
     column-gap: 1px;
 
@@ -310,7 +303,7 @@ body {
 }
 
 .test {
-    background-color: rgba(0, 0, 255, 0.2);
+    background-color: rgba(0, 0, 255, 0);
 }
 
 .timeline-point {
@@ -362,10 +355,25 @@ body {
     justify-content: flex-end;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
+    border-radius: 3px;
 
 }
 
+.item-container h {
+	padding-top: 1.3vh;
+	margin: 0 1.5vw 0 1.5vw;
+	font-size: 1.3em;
+	
+}
+
+.item-container p {
+	margin: 1.5vw 1.2vw 0 1.2vw;
+padding-bottom: 1vh;
+display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
 .main-container {
     background-color: rgba(9, 9, 10, 0.225);
     position: relative;
