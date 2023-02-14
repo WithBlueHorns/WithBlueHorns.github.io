@@ -2,6 +2,28 @@ body {
   margin: 0px;
   background-color: rgb(30, 31, 32);
 }
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #0e1012 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    border: 3px solid rgb(28, 28, 28);
+  }
 
 @font-face {
   font-family: "Oxanium";
@@ -10,18 +32,18 @@ body {
 }
 @font-face {
   font-family: "Oxanium";
-  src: url(fonts/Oxanium/OxaniumMedium.ttf) format(truetype);
-  font-weight: bold;
+  src: url(fonts/Oxanium/Light.ttf) format(truetype);
+  font-weight: lighter;
 }
 @font-face {
   font-family: "Cus";
   src: url(fonts/Single/Capture\ it.ttf) format(truetype);
-  font-weight:normal;
+  font-weight: normal;
 }
 @font-face {
   font-family: "Cus";
   src: url(fonts/Single/VCR_OSD_MONO.ttf) format(truetype);
-  font-weight:normal;
+  font-weight: normal;
 }
 
 .c-hm h {
@@ -30,14 +52,16 @@ body {
   padding: 100px 0 0 0;
   color: rgb(230, 230, 235);
   font: 1em "Capture it", Cus, sans-serif;
-  font-size:4.6em;
-  text-shadow: 0 -1px 0 #c0c0c0, 0 1px 0 hsl(0, 0%, 24%), 0 2px 0 hsl(0, 0%, 23%), 0 3px 0 hsl(0, 0%, 22%), 0 4px 0 hsl(0, 0%, 21%), 0 5px 0 hsl(0, 0%, 20%), 0 6px 0 hsl(0, 0%, 19%), 0 7px 0 hsl(0, 0%, 18%), 0 8px 0 hsl(0, 0%, 17%), 0 9px 0 hsl(0, 0%, 16%), 0 10px 0 hsl(0, 0%, 15%), 0 11px 1px hsl(0, 0%, 14%);
+  font-size: 4.6em;
+  text-shadow: 0 -1px 0 #c0c0c0, 0 1px 0 hsl(0, 0%, 24%),
+    0 2px 0 hsl(0, 0%, 23%), 0 3px 0 hsl(0, 0%, 22%), 0 4px 0 hsl(0, 0%, 21%),
+    0 5px 0 hsl(0, 0%, 20%), 0 6px 0 hsl(0, 0%, 19%), 0 7px 0 hsl(0, 0%, 18%),
+    0 8px 0 hsl(0, 0%, 17%), 0 9px 0 hsl(0, 0%, 16%), 0 10px 0 hsl(0, 0%, 15%),
+    0 11px 1px hsl(0, 0%, 14%);
   letter-spacing: 1px;
-  
 }
 
 .c-hm h1 {
-  
   display: flex;
   justify-content: center;
   color: rgb(230, 230, 235);
@@ -45,10 +69,12 @@ body {
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 
-
-h span { display: inline-block; margin-left: 20px;}
+h span {
+  display: inline-block;
+  margin-left: 20px;
+}
 h span::first-letter {
-    font-size: 1.35em;
+  font-size: 1.35em;
 }
 
 .ox-font {
@@ -57,7 +83,6 @@ h span::first-letter {
   display: flex;
   text-align: center;
   justify-content: center;
-
 }
 
 .nv {
@@ -98,15 +123,15 @@ h span::first-letter {
   text-align: right;
   margin: 0 5px 0 0;
   position: absolute;
-  right: 0;
   top: 31px;
+  right: 0;
 }
 .c-nvb {
   display: grid;
   float: left;
   height: 60px;
   width: 100%;
-  grid-template-columns: 1.2fr 1.5fr 1.85fr 1.7fr 1fr 1.75fr;
+  grid-template-columns: 1fr 1.1fr 1.1fr 1.55fr 1.2fr;
   column-gap: 2px;
 }
 
@@ -137,15 +162,89 @@ h span::first-letter {
 }
 
 .c-hm {
-  
-  margin-left: min(100, 15%);
-  margin-right: min(100, 15%);
+  margin-left: min(100px, 15%);
+  margin-right: min(100px, 15%);
   width: 800px;
   margin: auto;
   margin-top: 80px;
   height: 600px;
-  
 }
+
+.main-container {
+  background-color: rgba(9, 10, 11, 0.225);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  left: 0px;
+  width: 950px;
+  height: fit-content;
+  margin: auto;
+  margin-top: 40px;
+  
+  border-radius: 8px;
+  border: 1.5px solid rgb(0, 0, 0, .1);
+  padding: 40px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(19, 20, 21, .5);
+  border: 1.5px solid rgba(17, 18, 19, .2);
+  width: 80%;
+  height: fit-content;
+  margin-top: 20px;
+  margin-left: 10%;
+  color: white;
+  padding: 15px;
+  font: 1em "OxaniumLight", Oxanium, sans-serif;
+  color: rgb(200, 200, 200);
+  border-radius: 6px;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, .15);
+}
+.header-container h {
+  font-size: 4.5em;
+  color: rgb(230, 230, 230);
+}
+.container-faq {
+  margin-top: 45px;
+  display: block;
+  background-color: rgb(19, 20, 21, .5);
+  border: 1.5px solid rgba(17, 18, 18, .2);
+  width: 62%;
+  margin-left: 19%;
+  height: fit-content;
+  font: 1em "OxaniumMedium", Oxanium, sans-serif;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, .15);
+
+}
+
+
+.container-faq h, .container-faq p {
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: rgb(200, 200, 200);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container-faq h {
+  font-size: 1.8em;
+  color: rgb(230, 230, 230);
+}
+
+
 
 a:link {
   text-decoration: none;
