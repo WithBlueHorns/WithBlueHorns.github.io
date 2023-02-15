@@ -188,6 +188,30 @@ h span::first-letter {
   display: block;
 }
 
+.c-m {
+  background-color: rgba(9, 10, 11, 0.225);
+  border: 1.5px solid rgb(0, 0, 0, .1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 850px;
+  height: fit-content;
+  padding: 40px;
+  margin: auto;
+  margin-top: 80px;
+  font: 1.5em "OxaniumLight", Oxanium, sans-serif;
+  color: rgb(220, 220, 220);
+  justify-content: center;
+  align-items: center;
+}
+.c-m h {
+  font-size: 2em;
+}
+
+.c-m iframe {
+  margin-top: 20px;
+  border-radius: 8px;
+}
 .header-container {
   display: flex;
   flex-direction: column;
