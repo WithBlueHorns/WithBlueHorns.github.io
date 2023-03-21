@@ -31,18 +31,9 @@ body {
     font-weight: normal;
   }
   
+
   @font-face {
-    font-family: "Cus";
-    src: url(//Single/Capture\ it.ttf) format(truetype);
-    font-weight: normal;
-  }
-  @font-face {
-    font-family: "Cus";
-    src: url(/fonts/Single/VCR_OSD_MONO.ttf) format(truetype);
-    font-weight: normal;
-  }
-  @font-face {
-    font-family: "Cus";
+    font-family: "ae";
     src: url(/fonts/Single/Roboto-Regular.ttf) format(truetype);
     font-weight: normal;
   }
@@ -100,7 +91,7 @@ body {
   background-color: #0f1010;
   border: rgb(14, 15, 15) 1.5px solid;
   color: #e0e0e0;
-  font: 1em "Roboto-Regular", Cus, sans-serif;
+  font: 1em "Roboto-Regular", ae, sans-serif;
   border-radius: 4px;
   height: 100%;
   width: calc(100% / 7);
