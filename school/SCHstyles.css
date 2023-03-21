@@ -48,7 +48,7 @@ body {
 }
 
 .c-calendar {
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px 10px 0 0;
 
     margin: auto;
@@ -97,6 +97,7 @@ body {
   width: calc(100% / 7);
   margin: 0 3px 0 3px;
   position: relative;
+  padding-bottom: auto;
 }
 
 
@@ -134,9 +135,8 @@ body {
 }
 
 .info-block:hover {
-  transform: scale(1.04);
+  transform: scale(1.033, 1.1);
   filter: brightness(1.1);
-  border: rgba(0, 0, 0, 0.2) 1px solid;
   
 }
 
