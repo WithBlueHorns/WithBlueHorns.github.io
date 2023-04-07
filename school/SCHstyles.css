@@ -52,7 +52,7 @@ body {
     border-radius: 10px 10px 0 0;
 
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 1vh;
     width: 95%;
     min-height: 250px;
     display: grid;
@@ -157,3 +157,27 @@ body {
 .hw { background-color: #1E592F;}
 
 .project { background-color: #CC5E00;}
+
+#h1 {
+  margin-top: 4vh;
+  display: flex;
+  justify-content: center;
+  color: #c0c0c0;
+  font: 1em "Roboto-Regular", ae, sans-serif;
+  font-size: 2em;
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+.counters {
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px 0px 5px rgba(255,255,255,0.3);
+
+  margin-top: 4vh;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  color: #c0c0c0;
+  font: 1em "Roboto-Regular", ae, sans-serif;
+  font-size: 1.75em;
+  flex-direction: column;
+  align-items: center;
+}
