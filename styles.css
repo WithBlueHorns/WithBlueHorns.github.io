@@ -283,5 +283,5 @@ a:active {
   text-decoration: none;
 }
 .nc {
-  flex-direction: initial;
+  flex-direction: row;
 }
