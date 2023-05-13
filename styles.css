@@ -282,4 +282,6 @@ a:hover {
 a:active {
   text-decoration: none;
 }
-/*"When life gives you lemons, squeeze them in life's eye and run away laughing."*/
+#nc {
+  flex-direction: none;
+}
