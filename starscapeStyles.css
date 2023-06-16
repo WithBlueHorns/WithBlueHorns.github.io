@@ -12,6 +12,13 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    background-position: -200px 0px;
+  }
+}
+
 @font-face {
   font-family: "Oxanium";
   src: url(fonts/Oxanium/OxaniumRegular.ttf) format(truetype);
@@ -29,7 +36,12 @@ body {
   transform: perspective(1000px) rotateX(-7deg) rotateY(-23deg) rotateZ(-2deg);
   grid-template-columns: 1fr 20fr 1fr;
 }
-
+@media screen and (max-width: 500px) {
+  .bb-container {
+    height: 20vw;
+  width: 40vw;
+  }
+}
 .stripes {
   position: absolute;
   top: 0;
