@@ -11,7 +11,10 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
+
 }
+
 
 @media screen and (max-width: 500px) {
   body {
@@ -38,8 +41,10 @@ body {
 }
 @media screen and (max-width: 500px) {
   .bb-container {
-    height: 20vw;
-  width: 40vw;
+    height: 22.5vw;
+    width: 45vw;
+  
+  right: 5vw;
   }
 }
 .stripes {
@@ -98,7 +103,7 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 20px;
+  width: 2vh;
   background-color: #616161;
   background: linear-gradient(283deg, #14110f 0%, hsl(16, 7%, 17%) 100%);
 
@@ -107,13 +112,13 @@ body {
 }
 
 .sides:before {
-  left: -19px;
+  left: -2vh;
   transform-origin: right;
   transform: rotateY(-89deg);
 }
 
 .sides:after {
-  right: -19px;
+  right: -2vh;
   transform-origin: left;
   transform: rotateY(89deg);
 }
@@ -137,12 +142,16 @@ span.bb-text {
 }
 @media screen and (max-width: 500px) {
   h1.bb-text {
-    font-size: 3.8vw;
+    font-size: 4.4vw;
   }
   span.bb-text {
-    font-size: 4.2vw;
+    font-size: 5.5vw;
   }
 }
+
+
+
+
 .stripes:nth-child(1) {
   animation-delay: -5s; /* Delay the animation for the second stripe */
 }
