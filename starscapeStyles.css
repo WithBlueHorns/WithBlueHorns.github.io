@@ -1,18 +1,16 @@
 :root {
-  --bbColor: 255, 153, 51
-
-  ;
+  --bbColor: 255, 153, 51;
   --blur: 10px;
 }
 
 body {
-  background-image: url("images/starscape/6.png");
-  background-repeat: no-repeat;
+  background-image: url("images/starscape/6.jpg");
   background-attachment: fixed;
-  background-size: 100% 110%;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
-margin-left: auto;
-margin-right: auto
+  margin-left: auto;
+  margin-right: auto;
 }
 @font-face {
   font-family: "Oxanium";
@@ -40,7 +38,11 @@ margin-right: auto
   height: 600%;
   filter: grayscale(50%) brightness(150%);
 
-  background-image: linear-gradient(transparent 90%, rgba(var(--bbColor), 0.1) 95%, transparent 95.3%);
+  background-image: linear-gradient(
+    transparent 90%,
+    rgba(var(--bbColor), 0.1) 95%,
+    transparent 95.3%
+  );
   animation: holograph 6s linear infinite;
   transform-origin: top;
 }
@@ -48,8 +50,6 @@ margin-right: auto
 /* Rest of the CSS code remains the same */
 
 /* Rest of the CSS code remains the same */
-
-
 
 .middle-container {
   background-color: rgba(var(--bbColor), 0.35);
@@ -66,26 +66,29 @@ margin-right: auto
 
 .sides {
   background: #616161;
-  background: linear-gradient(100deg, rgb(126, 100, 78) 0%,  hsl(23, 9%, 30%) 50%, hsl(16, 7%, 17%) 100%);
+  background: linear-gradient(
+    100deg,
+    rgb(126, 100, 78) 0%,
+    hsl(23, 9%, 30%) 50%,
+    hsl(16, 7%, 17%) 100%
+  );
   height: 100%;
   position: relative;
   z-index: 3;
   transform-style: preserve-3d;
-  transform: perspective(1000px) rotateY(-15deg) translateZ(-20px) translateX(-6px); /* Update the translateX value as desired */
+  transform: perspective(1000px) rotateY(-15deg) translateZ(-20px)
+    translateX(-6px); /* Update the translateX value as desired */
 }
-
-  
-
 
 .sides:before,
 .sides:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
   width: 20px;
   background-color: #616161;
-  background: linear-gradient(283deg, #14110f 0%, hsl(16, 7%, 17%) 100% );
+  background: linear-gradient(283deg, #14110f 0%, hsl(16, 7%, 17%) 100%);
 
   transform-style: preserve-3d;
   z-index: 1; /* Update the z-index to 1 */
@@ -103,13 +106,6 @@ margin-right: auto
   transform: rotateY(89deg);
 }
 
-
-
-
-
-
-
-
 .bb-text {
   text-shadow: 0px 0px 8px rgba(var(--bbColor), 0.45);
 
@@ -117,18 +113,15 @@ margin-right: auto
   filter: grayscale(80%) brightness(175%);
   color: rgba(var(--bbColor), 0.45);
   justify-content: center;
-  margin: 3% 0 2%;  font: 1em "OxaniumMedium", Oxanium, sans-serif;
-  
+  margin: 3% 0 2%;
+  font: 1em "OxaniumMedium", Oxanium, sans-serif;
 }
-h1.bb-text  {
+h1.bb-text {
   font-size: 2.8vw;
 }
-span.bb-text  {
+span.bb-text {
   font-size: 3.75vw;
 }
-
-
-
 
 .stripes:nth-child(1) {
   animation-delay: -5s; /* Delay the animation for the second stripe */
