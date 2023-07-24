@@ -6,6 +6,7 @@
     <title>Gallery | WBH Works</title>
     <link rel="icon" href="images/favicons/favicon-310x310.png" id="favicon">
     <script src="scripts/favicon.js"></script>
+
     <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/favicon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/favicon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/favicon-72x72.png">
@@ -25,6 +26,7 @@
     <meta name="msapplication-TileImage" content="images/favicons/favicon-144x144.png">
     <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
 </head>
+
 <body>
     <div class="nv">
         <div class="c-nv">
@@ -37,7 +39,7 @@
                     <div class="nvbt ox-font">Home</div>
                     <div class="nvbl"> </div>
                 </a>
-                
+
                 <a href="/gallery.html">
                     <div class="nvbt ox-font">Gallery</div>
                     <div class="nvbl"> </div>
@@ -57,8 +59,60 @@
             </div>
         </div>
     </div>
-    <div class="c-m">
-       <h>Empty,</h>
-       <p>but not abandoned!</p>
+
+    <div class="container-gal">
+        <div class="c-test">
+            <span>Click any thumbnail to see more!</span>
+        </div>
+        <div class="c-pic">
+            <img src="/images/gallery/Lantern-smaller.jpg" id="pic-1-smaller"></img>
+            <img src="/images/gallery/Lantern.jpg" id="pic-1" onclick="interact('lantern')"></img>
+        </div>
+        <div class="c-pic">
+            <video id="vid" height="110px" controls>
+                <source src="images/gallery/Spidey.mp4" type="video/mp4">
+            </video>
+            <img class="videoIcon" src="/images/gallery/VideoIcon.svg" >
+        </div>
+        <div class="c-pic">
+            <img src="/images/gallery/Spaceship-smaller.png" id="pic-1-smaller"></img>
+            <img src="/images/gallery/Spaceship.png" id="pic-1" onclick="interact('spaceship')"></img>
+        </div>
+        <div class="c-pic">
+            <img src="/images/gallery/Serpulo-smaller.png" id="pic-1-smaller"></img>
+            <img src="/images/gallery/Serpulo.png" id="pic-1" onclick="interact('serpulo')"></img>
+        </div>
+    
+        <div class="c-pic">
+            <img src="/images/gallery/Mindus-smaller.jpg" id="pic-1-smaller"></img>
+            <img src="/images/gallery/Mindus.jpg" id="pic-1" onclick="interact('mindustry-core')"></img>
+        </div>
+        <div class="c-pic" >
+            <img src="/images/gallery/Cubes-smaller.png" id="pic-1-smaller"></img>
+            <img src="/images/gallery/Cubes.png" id="pic-1" onclick="interact('cubes')"></img>
+        </div>
+        <div class="c-pic">
+            <img src="/images/gallery/Human-smaller.jpg" id="pic-1-smaller"></img>
+            <img src="/images/gallery/Human.jpg" id="pic-1" onclick="interact('sculpted-face')"></img>
+        </div>
+        <div class="c-pic">
+            <video id="vid" height="110px" controls>
+                <source src="images/gallery/First.mp4" type="video/mp4">
+            </video>
+            <img class="videoIcon" src="/images/gallery/VideoIcon.svg" >
+        </div>
+        
+        <div class="c-pic">I had more but it got lost in time.</div>
+        
     </div>
+    <div id="image-viewer" onclick="interact('exit')">
+        <div class="c-imgv" onclick="event.stopPropagation();">
+            <img src="/images/gallery/Lantern.jpg" id="pic-img">
+            <h1 id="pic-title">Word</h1>
+            <p id="pic-des">This is an image, I think? Maybe it is, maybe it's not. Maybe I do know; you never know.</p>
+          </div>
+    </div>
+    <script src="scripts/interactionManager.js" defer></script>
+    <script src="scripts/getRidOfIcons.js" defer></script>
+
 </body>

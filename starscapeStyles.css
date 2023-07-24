@@ -16,6 +16,7 @@ body {
 }
 
 
+
 @media screen and (max-width: 500px) {
   body {
     background-position: -200px 0px;
@@ -155,6 +156,7 @@ span.bb-text {
   height: 100%;
   z-index: -1;
 }
+
 
 
 

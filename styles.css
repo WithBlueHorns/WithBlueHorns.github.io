@@ -2,6 +2,8 @@ body {
   margin: 0px;
   background-color: rgb(30, 31, 32);
 }
+
+
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
@@ -30,11 +32,7 @@ body {
   src: url(fonts/Oxanium/OxaniumRegular.ttf) format(truetype);
   font-weight: normal;
 }
-@font-face {
-  font-family: "Oxanium";
-  src: url(fonts/Oxanium/Light.ttf) format(truetype);
-  font-weight: lighter;
-}
+
 @font-face {
   font-family: "Cus";
   src: url(fonts/Single/Capture\ it.ttf) format(truetype);
@@ -67,10 +65,12 @@ body {
   color: rgb(230, 230, 235);
   font: 1.4em "VCR_OSD_MONO", Cus, sans-serif;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+  line-height: 30px;
 }
 
 h span {
   display: inline-block;
+  line-height: 50px;
   margin-left: 20px;
 }
 h span::first-letter {
@@ -80,10 +80,13 @@ h span::first-letter {
 .ox-font {
   color: rgb(235, 235, 240);
   font: 1em "OxaniumMedium", Oxanium, sans-serif;
+  
   display: flex;
   text-align: center;
   justify-content: center;
 }
+
+
 
 .nv {
   position: relative;
@@ -94,6 +97,8 @@ h span::first-letter {
   background-color: rgba(23, 24, 25);
   border: solid rgb(15, 16, 17);
   border-width: 2.5px 0 2.5px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .c-nv {
@@ -179,7 +184,7 @@ h span::first-letter {
   width: 950px;
   height: fit-content;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 80px;
   
   border-radius: 8px;
   border: 1.5px solid rgb(0, 0, 0, .1);
@@ -268,18 +273,168 @@ h span::first-letter {
   color: rgb(230, 230, 230);
 }
 
+.container-gal {
+  background-color: rgba(9, 10, 11, 0.225);
+  border: 1.5px solid rgb(0, 0, 0, .1);
+  border-radius: 8px;
+  display: grid;
+  flex-direction: column;
+  width: 850px;
+  height: fit-content;
+  padding: 40px;
+  margin: auto;
+  margin-top: 80px;
+  font: 1.5em "OxaniumLight", Oxanium, sans-serif;
+  color: rgb(220, 220, 220);
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 120px 120px 120px;
+}
+
+.c-test{
+  height: 100%;
+  grid-column: 1 / span 4;
+  text-align: center;
+  justify-self: center
+}
+
+
+.c-m h2 {
+  font: 2em "OxaniumLight", Oxanium, sans-serif
+}
+
+.c-pic {
+  width: 85%;
+  height: 100px;
+  background-color: #14110f;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  border-radius: 3px;
+  margin: auto;
+  transition: all .2s linear;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+
+.c-pic:hover {
+  height: 105px;
+  width: 87.5%;
+}
+.c-pic img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the images */
+}
+
+#pic-1-smaller {
+  z-index: 1; /* Place this image above the other */
+}
+
+
+
+#pic-1 {
+    z-index: 2; /* Place the second image in front of the first image */
+}
+
+#image-viewer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.c-imgv {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(36, 36, 36);
+  overflow: hidden;
+  border-radius: 6px;
+  background: radial-gradient( rgb(58, 58, 58) 0%, rgb(36, 36, 36) 100%);
+
+  
+ }
+
+#nc p{
+  display: flex;
+  flex-direction: row;
+  align-items: row; /* or inline-block, depending on your layout needs */
+  
+}
+
+ .c-imgv h1, .c-imgv p{
+  font: 2.5em "OxaniumLight", Oxanium, sans-serif;
+  color: rgb(220, 220, 220);
+  line-height: 20px;
+  margin-left: 10px;
+  text-shadow: 0px -1px 10px rgb(0, 0, 0, 0.5);
+  white-space: pre-line; /* Preserve line breaks */
+  overflow: visible;
+
+ }
+ 
+ .c-imgv p {
+  margin-top: 35px;
+  font-size: 1em;
+ }
+
+
+
+.c-imgv img {
+  display: block;
+  height: 75vh;
+
+  overflow: hidden;
+  border-bottom: rgba(0, 0, 0, 0.3) 3px solid  ;
+  
+}
+
+
+
+.videoIcon{
+  width: 40px !important;
+  display: flex !important;
+  top: 25% !important;
+  left: 84% !important;
+  margin: 0;
+  z-index: 3;
+  opacity: .3;
+  transition: opacity 1s ease;
+}
+.fade-out {
+  opacity: 0;
+}
 
 
 a:link {
-  text-decoration: none;
+  text-decoration: none !important;
+  color: rgb(160, 209, 255);
 }
 a:visited {
-  text-decoration: none;
+  text-decoration: none !important;
+  color: rgb(160, 209, 255);
+
 }
 a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
+  color: rgb(133, 171, 207);
+
 }
 a:active {
-  text-decoration: none;
+  text-decoration: none !important;
+  color: rgb(160, 209, 255);
+
 }
-/*"When life gives you lemons, squeeze them in life's eye and run away laughing."*/
