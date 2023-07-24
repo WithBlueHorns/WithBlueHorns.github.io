@@ -33,15 +33,21 @@ body {
   font-weight: normal;
 }
 
+
 @font-face {
   font-family: "Cus";
-  src: url(fonts/Single/Capture\ it.ttf) format(truetype);
+  src: url(fonts/Single/Captureit.ttf) format(truetype);
   font-weight: normal;
 }
+
 @font-face {
-  font-family: "Cus";
+  font-family: "Ae";
   src: url(fonts/Single/VCR_OSD_MONO.ttf) format(truetype);
   font-weight: normal;
+}
+.vcr {
+  font: 1.5em "VCR_OSD_MONO", Ae, sans-serif !important;
+
 }
 
 .c-hm h {
@@ -280,7 +286,7 @@ h span::first-letter {
   border-radius: 8px;
   display: grid;
   flex-direction: column;
-  width: 850px;
+  width: 1025px;
   height: fit-content;
   padding: 40px;
   margin: auto;
@@ -289,7 +295,7 @@ h span::first-letter {
   color: rgb(220, 220, 220);
   align-items: center;
   grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 50px 120px 120px 120px;
+    grid-template-rows: 50px 130px 130px 120px;
 }
 
 .c-test{
@@ -306,7 +312,7 @@ h span::first-letter {
 
 .c-pic {
   width: 85%;
-  height: 100px;
+  height: 110px;
   background-color: #14110f;
   overflow: hidden;
   display: flex;
@@ -323,7 +329,7 @@ h span::first-letter {
 
 
 .c-pic:hover {
-  height: 105px;
+  height: 115px;
   width: 87.5%;
 }
 .c-pic img {
