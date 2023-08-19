@@ -50,10 +50,16 @@ function interact(Input) {
           "Human with full clothes, rigged, back then, date is unknown";
         Image.src = "/images/gallery/Cubes.png";
         break;
-      case "sculpted-face":
-        Title.textContent = "Sculpted and textured face, 2022(?)";
-        Description.textContent = `Second try at making human with such details. I guess I like work of an organic artist. 
-            "shaggy" — Konniv 30.06.2022`;
+        case "sculpted-face":
+          Title.textContent = "Sculpted and textured face, 2022(?)";
+          Description.textContent = `Second try at making human with such details. I guess I like work of an organic artist. 
+              "shaggy" — Konniv 30.06.2022`;
+  
+          Image.src = "/images/gallery/Human.jpg";
+          break;
+          case "lanterns":
+        Title.textContent = "Lanterns, 9.2.2021";
+        Description.textContent = `Probably my second render, made just 2-3 months after starting with 3d. It was lost piece of my history, until I found it on my steam.`;
 
         Image.src = "/images/gallery/Human.jpg";
         break;
