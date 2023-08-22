@@ -61,7 +61,7 @@ function interact(Input) {
         Title.textContent = "Lanterns, 9.2.2021";
         Description.textContent = `Probably my second render, made just 2-3 months after starting with 3d. It was lost piece of my history, until I found it on my steam.`;
 
-        Image.src = "/images/gallery/Human.jpg";
+        Image.src = "/images/gallery/Lanterns.jpg";
         break;
       default:
         console.log(`I fucked up something if you see this.`);
