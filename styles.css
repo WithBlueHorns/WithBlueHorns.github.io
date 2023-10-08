@@ -295,7 +295,7 @@ h span::first-letter {
   color: rgb(220, 220, 220);
   align-items: center;
   grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 50px 130px 130px 120px;
+    grid-template-rows: 50px 130px 130px 130px 130px;
 }
 
 .c-test{
