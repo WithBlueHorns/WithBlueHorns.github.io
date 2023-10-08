@@ -9,6 +9,13 @@ function interact(Input) {
     mainContainer.style.visibility = "hidden";
   } else {
     switch (Input) {
+      case "jetstream":
+        Title.textContent = "Jetstream Sam, 08.10.2023"
+        Description.textContent = `*inhale* MEMORIES BROKEN-
+        A model of Jetstream Sam, after a bit of break. It was a fun project, but pretty painful.
+        Maybe I should rig and animate it`
+        Image.src = "/images/gallery/Jetstream.png";
+        break;
       case "crystal":
         Title.textContent = "Crystal, 08.08.2023";
         Description.textContent = `Quick model of a green crystal.`;
