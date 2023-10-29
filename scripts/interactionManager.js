@@ -9,6 +9,11 @@ function interact(Input) {
     mainContainer.style.visibility = "hidden";
   } else {
     switch (Input) {
+      case "ump45":
+        Title.textContent = "UMP45, 29.10.2023"
+        Description.textContent = "Short side project"
+        Image.src = "images/gallery/ump45.jpg"
+        break;
       case "jetstream":
         Title.textContent = "Jetstream Sam, 08.10.2023"
         Description.textContent = `*inhale* MEMORIES BROKEN-
