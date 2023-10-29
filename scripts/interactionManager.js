@@ -12,7 +12,7 @@ function interact(Input) {
       case "ump45":
         Title.textContent = "UMP45, 29.10.2023"
         Description.textContent = "Short side project"
-        Image.src = "images/gallery/ump45.jpg"
+        Image.src = "images/gallery/ump45.png"
         break;
       case "jetstream":
         Title.textContent = "Jetstream Sam, 08.10.2023"
