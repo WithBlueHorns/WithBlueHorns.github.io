@@ -9,6 +9,12 @@ function interact(Input) {
     mainContainer.style.visibility = "hidden";
   } else {
     switch (Input) {
+      case "fl":
+        Title.textContent = "Frozen Lake, 30.11.2023"
+        Description.textContent = `Very short side project, bigger animation coming up, 
+        used this as a break from it, did it mostly for fun`
+        Image.src = "images/gallery/FrozenLake.png"
+        break;
       case "ump45":
         Title.textContent = "UMP45, 29.10.2023"
         Description.textContent = "Short side project"
