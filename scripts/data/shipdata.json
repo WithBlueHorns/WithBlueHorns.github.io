@@ -1,0 +1,729 @@
+{
+  "ships": [
+    {
+      "starter": [
+        {
+          "stratos": [
+            {
+              "ship class": "Small",
+              "shield points": 200,
+              "shield regen": 2,
+              "hull points": 200,
+              "hull regen": 0,
+              "energy capacity": 100,
+              "energy regen": 1.5,
+              "speed": 260,
+              "acceleration": 120,
+              "agility": 150,
+              "warp speed": 1,
+              "warp charge time": 3.0,
+              "sensor strenght": 20,
+              "signal range": 4000,
+              "turret slots": [2, 0, 0],
+              "subsystems": 1,
+              "rig slots": [0, 1, 1, 1],
+              "deflector": 0,
+              "armor": 0
+            }
+          ]
+        }
+      ],
+      "fighter": [
+        {
+          "aurora": [
+            {
+              "ship class": "Small",
+              "shield points": 450,
+              "shield regen": 2,
+              "hull points": 200,
+              "hull regen": 0,
+              "energy capacity": 100,
+              "energy regen": 1.5,
+              "speed": 320,
+              "acceleration": 130,
+              "agility": 130,
+              "warp speed": 1.1,
+              "warp charge time": 4,
+              "sensor strenght": 25,
+              "signal range": 4750,
+              "turret slots": [3, 0, 0],
+              "subsystems": 1,
+              "rig slots": [1, 1, 0, 1],
+              "deflector": 0.5,
+              "armor": 0.5
+            }
+          ],
+          "claymore": [
+            {
+              "ship class": "Small",
+              "shield points": 150,
+              "shield regen": 1.5,
+              "hull points": 650,
+              "hull regen": 0,
+              "energy capacity": 80,
+              "energy regen": 1.5,
+              "speed": 310,
+              "acceleration": 120,
+              "agility": 120,
+              "warp speed": 1.1,
+              "warp charge time": 4,
+              "sensor strenght": 25,
+              "signal range": 5000,
+              "turret slots": [4, 0, 0],
+              "subsystems": 2,
+              "rig slots": [2, 2, 0, 0],
+              "deflector": 0,
+              "armor": 1
+            }
+          ],
+          "hornbill": [
+            {
+              "ship class": "Small",
+              "shield points": 400,
+              "shield regen": 2.5,
+              "hull points": 300,
+              "hull regen": 0,
+              "energy capacity": 110,
+              "energy regen": 1.7,
+              "speed": 340,
+              "acceleration": 190,
+              "agility": 145,
+              "warp speed": 1.5,
+              "warp charge time": 4,
+              "sensor strenght": 25,
+              "signal range": 4250,
+              "turret slots": [3, 0, 0],
+              "subsystems": 3,
+              "rig slots": [1, 1, 1, 2],
+              "deflector": 1,
+              "armor": 0
+            }
+          ],
+          "hybrid claymore": [
+            {
+              "ship class": "Small",
+              "shield points": 165,
+              "shield regen": 1,
+              "hull points": 760,
+              "hull regen": 0,
+              "energy capacity": 90,
+              "energy regen": 1.5,
+              "speed": 320,
+              "acceleration": 130,
+              "agility": 130,
+              "warp speed": 1.1,
+              "warp charge time": 4,
+              "sensor strenght": 25,
+              "signal range": 5000,
+              "turret slots": [4, 0, 0],
+              "subsystems": 2,
+              "rig slots": [2, 2, 1, 0],
+              "deflector": 0,
+              "armor": 0.2
+            }
+          ],
+          "hybrid luminar": [
+            {
+              "ship class": "Small",
+              "shield points": 450,
+              "shield regen": 1.5,
+              "hull points": 200,
+              "hull regen": 0,
+              "energy capacity": 110,
+              "energy regen": 1.8,
+              "speed": 330,
+              "acceleration": 160,
+              "agility": 145,
+              "warp speed": 1.25,
+              "warp charge time": 4,
+              "sensor strenght": 25,
+              "signal range": 4750,
+              "turret slots": [3, 0, 0],
+              "subsystems": 2,
+              "rig slots": [1, 2, 1, 1],
+              "deflector": 1.5,
+              "armor": 0.5
+            }
+          ],
+          "lucent": [
+            {
+              "ship class": "Small",
+              "shield points": 300,
+              "shield regen": 2.5,
+              "hull points": 250,
+              "hull regen": 0,
+              "energy capacity": 115,
+              "energy regen": 1.2,
+              "speed": 310,
+              "acceleration": 130,
+              "agility": 125,
+              "warp speed": 1.3,
+              "warp charge time": 4,
+              "sensor strenght": 25,
+              "signal range": 4500,
+              "turret slots": [2, 0, 0],
+              "subsystems": 2,
+              "rig slots": [0, 2, 1, 1],
+              "deflector": 1.5,
+              "armor": 0
+            }
+          ],
+          "luminar": [
+            {
+              "ship class": "Small",
+              "shield points": 500,
+              "shield regen": 2.5,
+              "hull points": 200,
+              "hull regen": 0,
+              "energy capacity": 110,
+              "energy regen": 1.5,
+              "speed": 320,
+              "acceleration": 135,
+              "agility": 135,
+              "warp speed": 1.2,
+              "warp charge time": 4,
+              "sensor strenght": 25,
+              "signal range": 4750,
+              "turret slots": [3, 0, 0],
+              "subsystems": 2,
+              "rig slots": [1, 2, 0, 1],
+              "deflector": 0.5,
+              "armor": 0.5
+            }
+          ],
+          "luster": [
+            {
+              "ship class": "Small",
+              "shield points": 300,
+              "shield regen": 2.5,
+              "hull points": 200,
+              "hull regen": 0,
+              "energy capacity": 110,
+              "energy regen": 1.2,
+              "speed": 300,
+              "acceleration": 120,
+              "agility": 120,
+              "warp speed": 0.9,
+              "warp charge time": 4,
+              "sensor strenght": 25,
+              "signal range": 4500,
+              "turret slots": [2, 0, 0],
+              "subsystems": 1,
+              "rig slots": [0, 2, 1, 0],
+              "deflector": 1,
+              "armor": 0
+            }
+          ],
+          "piranha": [
+            {
+              "ship class": "Small",
+              "shield points": 100,
+              "shield regen": 1,
+              "hull points": 350,
+              "hull regen": 0,
+              "energy capacity": 90,
+              "energy regen": 1.2,
+              "speed": 320,
+              "acceleration": 140,
+              "agility": 150,
+              "warp speed": 1.3,
+              "warp charge time": 4,
+              "sensor strenght": 25,
+              "signal range": 4500,
+              "turret slots": [2, 0, 0],
+              "subsystems": 1,
+              "rig slots": [2, 0, 1, 0],
+              "deflector": 0,
+              "armor": 0.5
+            }
+          ],
+          "sabre": [
+            {
+              "ship class": "Small",
+              "shield points": 150,
+              "shield regen": 1,
+              "hull points": 600,
+              "hull regen": 0,
+              "energy capacity": 75,
+              "energy regen": 1.5,
+              "speed": 300,
+              "acceleration": 100,
+              "agility": 115,
+              "warp speed": 1,
+              "warp charge time": 4,
+              "sensor strenght": 25,
+              "signal range": 5000,
+              "turret slots": [4, 0, 0],
+              "subsystems": 2,
+              "rig slots": [2, 1, 0, 0],
+              "deflector": 0,
+              "armor": 1
+            }
+          ],
+          "thresher": [
+            {
+              "ship class": "Small",
+              "shield points": 125,
+              "shield regen": 1,
+              "hull points": 350,
+              "hull regen": 0,
+              "energy capacity": 90,
+              "energy regen": 1.4,
+              "speed": 330,
+              "acceleration": 160,
+              "agility": 155,
+              "warp speed": 1.3,
+              "warp charge time": 4,
+              "sensor strenght": 25,
+              "signal range": 4500,
+              "turret slots": [4, 0, 0],
+              "subsystems": 2,
+              "rig slots": [2, 0, 2, 0],
+              "deflector": 0,
+              "armor": 0.5
+            }
+          ],
+          "toucan": [
+            {
+              "ship class": "Small",
+              "shield points": 125,
+              "shield regen": 1,
+              "hull points": 350,
+              "hull regen": 0,
+              "energy capacity": 90,
+              "energy regen": 1.4,
+              "speed": 330,
+              "acceleration": 160,
+              "agility": 155,
+              "warp speed": 1.3,
+              "warp charge time": 4,
+              "sensor strenght": 25,
+              "signal range": 4500,
+              "turret slots": [4, 0, 0],
+              "subsystems": 2,
+              "rig slots": [2, 0, 2, 0],
+              "deflector": 0,
+              "armor": 0.5
+            }
+          ]
+        }
+      ],
+      "interceptor": [
+        {
+          "hybrid paragon": [
+            {
+              "ship class": "Small",
+              "shield points": 200,
+              "shield regen": 1.5,
+              "hull points": 220,
+              "hull regen": 0,
+              "energy capacity": 120,
+              "energy regen": 1.5,
+              "speed": 490,
+              "acceleration": 270,
+              "agility": 190,
+              "warp speed": 1.6,
+              "warp charge time": 3,
+              "sensor strenght": 25,
+              "signal range": 4000,
+              "turret slots": [2, 0, 0],
+              "subsystems": 2,
+              "rig slots": [1, 1, 2, 1],
+              "deflector": 1,
+              "armor": 0
+            }
+          ],
+          "hybrid polaris": [
+            {
+              "ship class": "Small",
+              "shield points": 200,
+              "shield regen": 5,
+              "hull points": 275,
+              "hull regen": 0,
+              "energy capacity": 100,
+              "energy regen": 1.8,
+              "speed": 475,
+              "acceleration": 250,
+              "agility": 175,
+              "warp speed": 1.4,
+              "warp charge time": 3,
+              "sensor strenght": 25,
+              "signal range": 4250,
+              "turret slots": [2, 0, 0],
+              "subsystems": 2,
+              "rig slots": [1, 2, 1, 1],
+              "deflector": 0,
+              "armor": 0
+            }
+          ]
+        }
+      ],
+      "miner": [
+        {
+          "badger": [
+            {
+              "ship class": "Small",
+              "shield points": 50,
+              "shield regen": 2,
+              "hull points": 260,
+              "hull regen": 0,
+              "energy capacity": 100,
+              "energy regen": 1.5,
+              "speed": 350,
+              "acceleration": 190,
+              "agility": 90,
+              "warp speed": 1.4,
+              "warp charge time": 5,
+              "sensor strenght": 25,
+              "signal range": 5000,
+              "turret slots": [1, 0, 0],
+              "subsystems": 1,
+              "rig slots": [0, 1, 1, 1],
+              "deflector": 0,
+              "armor": 0.5
+            }
+          ],
+          "honey badger": [
+            {
+              "ship class": "Small",
+              "shield points": 200,
+              "shield regen": 1.5,
+              "hull points": 220,
+              "hull regen": 0,
+              "energy capacity": 120,
+              "energy regen": 1.5,
+              "speed": 490,
+              "acceleration": 270,
+              "agility": 190,
+              "warp speed": 1.6,
+              "warp charge time": 3,
+              "sensor strenght": 25,
+              "signal range": 4000,
+              "turret slots": [2, 0, 0],
+              "subsystems": 2,
+              "rig slots": [1, 1, 2, 1],
+              "deflector": 1,
+              "armor": 0
+            }
+          ],
+          "marlin": [
+            {
+              "ship class": "Small",
+              "shield points": 75,
+              "shield regen": 2,
+              "hull points": 180,
+              "hull regen": 0,
+              "energy capacity": 90,
+              "energy regen": 1.8,
+              "speed": 420,
+              "acceleration": 200,
+              "agility": 160,
+              "warp speed": 1.5,
+              "warp charge time": 3,
+              "sensor strenght": 25,
+              "signal range": 4000,
+              "turret slots": [1, 0, 0],
+              "subsystems": 1,
+              "rig slots": [0, 0, 2, 1],
+              "deflector": 0.5,
+              "armor": 0
+            }
+          ],
+          "mako": [
+            {
+              "ship class": "Small",
+              "shield points": 100,
+              "shield regen": 3.5,
+              "hull points": 225,
+              "hull regen": 0,
+              "energy capacity": 90,
+              "energy regen": 1.7,
+              "speed": 440,
+              "acceleration": 225,
+              "agility": 180,
+              "warp speed": 1.7,
+              "warp charge time": 3,
+              "sensor strenght": 25,
+              "signal range": 3750,
+              "turret slots": [1, 0, 0],
+              "subsystems": 2,
+              "rig slots": [0, 1, 2, 1],
+              "deflector": 1,
+              "armor": 0
+            }
+          ],
+          "koronis": [
+            {
+              "ship class": "Small",
+              "shield points": 200,
+              "shield regen": 2,
+              "hull points": 300,
+              "hull regen": 0,
+              "energy capacity":120,
+              "energy regen": 1.4,
+              "speed": 330,
+              "acceleration": 220,
+              "agility": 200,
+              "warp speed": 0.8,
+              "warp charge time": 4,
+              "sensor strenght": 25,
+              "signal range": 5000,
+              "turret slots": [1, 0, 0],
+              "subsystems": 2,
+              "rig slots": [1, 0, 2, 1],
+              "deflector": 1,
+              "armor": 0,
+              "cargo capacity": 2
+            }
+          ]
+        }
+      ],
+      "corvette": [
+        {
+          "radix": [
+            {
+              "ship class": "Medium",
+              "shield points": 2500,
+              "shield regen": 10,
+              "hull points": 2400,
+              "hull regen": 0,
+              "energy capacity": 400,
+              "energy regen": 4.5,
+              "speed": 230,
+              "acceleration": 80,
+              "agility": 85,
+              "warp speed": 1.1,
+              "warp charge time": 4.5,
+              "sensor strenght": 35,
+              "signal range": 6500,
+              "turret slots": [0, 4, 0],
+              "subsystems": 1,
+              "rig slots": [0, 0, 2, 1],
+              "deflector": 1.5,
+              "armor": 1
+            }
+          ]
+        }
+      ],
+      "frigate": [
+        {
+          "phalanx": [
+            {
+              "ship class": "Medium",
+              "shield points": 1200,
+              "shield regen": 12,
+              "hull points": 8200,
+              "hull regen": 0,
+              "energy capacity": 610,
+              "energy regen": 6,
+              "speed": 160,
+              "acceleration": 36,
+              "agility": 45,
+              "warp speed": 1.2,
+              "warp charge time": 5,
+              "sensor strenght": 40,
+              "signal range": 8000,
+              "turret slots": [0, 6, 0],
+              "subsystems": 1,
+              "rig slots": [1, 2, 1, 0],
+              "deflector": 1.5,
+              "armor": 3.5
+            }
+          ]
+        }
+      ],
+      "destroyer": [
+        {
+          "bulwark": [
+            {
+              "ship class": "Large",
+              "shield points": 1500,
+              "shield regen": 10,
+              "hull points": 13000,
+              "hull regen": 0,
+              "energy capacity": 850,
+              "energy regen": 8.2,
+              "speed": 100,
+              "acceleration": 80,
+              "agility": 40,
+              "warp speed": 0.55,
+              "warp charge time": 8,
+              "sensor strenght": 55,
+              "signal range": 10000,
+              "turret slots": [0, 3, 3],
+              "subsystems": 2,
+              "rig slots": [1, 2, 0, 1],
+              "deflector": 2,
+              "armor": 3
+            }
+          ],
+          "conciliator": [
+            {
+              "ship class": "Large",
+              "shield points": 3500,
+              "shield regen": 22.5,
+              "hull points": 8100,
+              "hull regen": 0,
+              "energy capacity": 950,
+              "energy regen": 9.8,
+              "speed": 130,
+              "acceleration": 30,
+              "agility": 45,
+              "warp speed": 0.85,
+              "warp charge time": 7,
+              "sensor strenght": 55,
+              "signal range": 10000,
+              "turret slots": [0, 4, 2],
+              "subsystems": 3,
+              "rig slots": [1, 1, 1, 2],
+              "deflector": 3.5,
+              "armor": 3
+            }
+          ],
+          "echelon": [
+            {
+              "ship class": "Large",
+              "shield points": 2000,
+              "shield regen": 16,
+              "hull points": 11000,
+              "hull regen": 0,
+              "energy capacity": 1000,
+              "energy regen": 9,
+              "speed": 120,
+              "acceleration": 32,
+              "agility": 32,
+              "warp speed": 0.7,
+              "warp charge time": 8,
+              "sensor strenght": 55,
+              "signal range": 10000,
+              "turret slots": [0, 4, 2],
+              "subsystems": 2,
+              "rig slots": [1, 2, 1, 1],
+              "deflector": 2,
+              "armor": 6.5
+            }
+          ],
+          "fortitude": [
+            {
+              "ship class": "Large",
+              "shield points": 3250,
+              "shield regen": 30,
+              "hull points": 5600,
+              "hull regen": 0,
+              "energy capacity":800,
+              "energy regen": 10.5,
+              "speed": 130,
+              "acceleration": 60,
+              "agility": 45,
+              "warp speed": 0.9,
+              "warp charge time": 5,
+              "sensor strenght": 55,
+              "signal range": 10000,
+              "turret slots": [0, 4, 2],
+              "subsystems": 2,
+              "rig slots": [2, 0, 1, 2],
+              "deflector": 2,
+              "armor": 3
+            }
+          ],
+          "horizon": [
+            {
+              "ship class": "Large",
+              "shield points": 5000,
+              "shield regen": 17,
+              "hull points": 4200,
+              "hull regen": 0,
+              "energy capacity": 900,
+              "energy regen": 9,
+              "speed": 140,
+              "acceleration": 60,
+              "agility": 50,
+              "warp speed": 1,
+              "warp charge time": 5.5,
+              "sensor strenght": 55,
+              "signal range": 8000,
+              "turret slots": [0, 8, 0],
+              "subsystems": 2,
+              "rig slots": [0, 1, 2, 2],
+              "deflector": 2.5,
+              "armor": 3
+            }
+          ],
+          "justice": [
+            {
+              "ship class": "Large",
+              "shield points":10000,
+              "shield regen": 12,
+              "hull points": 3800,
+              "hull regen": 0,
+              "energy capacity": 850,
+              "energy regen": 9.8,
+              "speed": 110,
+              "acceleration": 34,
+              "agility": 36,
+              "warp speed": 0.7,
+              "warp charge time": 8,
+              "sensor strenght": 55,
+              "signal range": 10000,
+              "turret slots": [0, 4, 2],
+              "subsystems": 2,
+              "rig slots": [1, 2, 1, 1],
+              "deflector": 2.5,
+              "armor": 3.5
+            }
+          ],
+          "loxodon": [
+            {
+              "ship class": "Large",
+              "shield points": 3750,
+              "shield regen": 24,
+              "hull points": 7500,
+              "hull regen": 0,
+              "energy capacity": 900,
+              "energy regen": 7.5,
+              "speed": 110,
+              "acceleration": 54,
+              "agility": 36,
+              "warp speed": 0.7,
+              "warp charge time": 7,
+              "sensor strenght": 55,
+              "signal range": 10000,
+              "turret slots": [0, 6, 2],
+              "subsystems": 2,
+              "rig slots": [2, 1, 1, 1],
+              "deflector": 0,
+              "armor": 4
+            }
+          ],
+          "yukon": [
+            {
+              "ship class": "Large",
+              "shield points": 1800,
+              "shield regen": 12,
+              "hull points": 8400,
+              "hull regen": 0,
+              "energy capacity": 900,
+              "energy regen": 9,
+              "speed": 100,
+              "acceleration": 20,
+              "agility": 30,
+              "warp speed": 0.7,
+              "warp charge time": 6,
+              "sensor strenght": 55,
+              "signal range": 10000,
+              "turret slots": [0, 10,0],
+              "subsystems": 1,
+              "rig slots": [0, 2, 1, 1],
+              "deflector": 2,
+              "armor": 4,
+              "mining rate": 2.25,
+              "tractor speed": 1.75,
+              "max combat turrets": 6,
+              "max mining turrets": 6
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

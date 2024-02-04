@@ -1,0 +1,1091 @@
+{
+  "turrets": [
+    {
+      "weaponery": [
+        {
+          "beam": [
+            {
+              "I": [
+                {
+                  "turret type": "Beam",
+                  "turret size": "Small",
+                  "damage per second": 20,
+                  "damage per shot": 180,
+                  "rate of fire": 8,
+                  "damage falloff": 0.5,
+                  "projectile speed": 10000,
+                  "maximum range": 5000,
+                  "charge time": 1.5,
+                  "accuracy": 1.5,
+                  "aim time": 3,
+                  "turning speed": 50
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Beam",
+                  "turret size": "Small",
+                  "damage per second": 22.2,
+                  "damage per shot": 200,
+                  "rate of fire": 8,
+                  "damage falloff": 0.5,
+                  "projectile speed": 10000,
+                  "maximum range": 5000,
+                  "charge time": 1.5,
+                  "accuracy": 1.5,
+                  "aim time": 3,
+                  "turning speed": 50
+                }
+              ],
+              "III": [
+                {
+                  "turret type": "Beam",
+                  "turret size": "Small",
+                  "damage per second": 24.4,
+                  "damage per shot": 220,
+                  "rate of fire": 8,
+                  "damage falloff": 0.5,
+                  "projectile speed": 10000,
+                  "maximum range": 5000,
+                  "charge time": 1.5,
+                  "accuracy": 1.5,
+                  "aim time": 3,
+                  "turning speed": 50
+                }
+              ],
+              "Hybrid": [
+                {
+                  "turret type": "Beam",
+                  "turret size": "Small",
+                  "damage per second": 26.7,
+                  "damage per shot": 240,
+                  "rate of fire": 8,
+                  "damage falloff": 0.5,
+                  "projectile speed": 10000,
+                  "maximum range": 5000,
+                  "charge time": 1.5,
+                  "accuracy": 1.5,
+                  "aim time": 3,
+                  "turning speed": 50
+                }
+              ]
+            }
+          ],
+          "beam-M": [
+            {
+              "I": [
+                {
+                  "turret type": "Beam",
+                  "turret size": "Medium",
+                  "damage per second": 44.7,
+                  "damage per shot": 450,
+                  "rate of fire": 7,
+                  "damage falloff": 0.5,
+                  "projectile speed": 10000,
+                  "maximum range": 5000,
+                  "charge time": 1.5,
+                  "accuracy": 1.5,
+                  "aim time": 4,
+                  "turning speed": 50
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Beam",
+                  "turret size": "Medium",
+                  "damage per second": 48.7,
+                  "damage per shot": 490,
+                  "rate of fire": 7,
+                  "damage falloff": 0.5,
+                  "projectile speed": 10000,
+                  "maximum range": 5000,
+                  "charge time": 1.5,
+                  "accuracy": 1.5,
+                  "aim time": 4,
+                  "turning speed": 50
+                }
+              ],
+              "III": [
+                {
+                  "turret type": "Beam",
+                  "turret size": "Medium",
+                  "damage per second": 52.6,
+                  "damage per shot": 530,
+                  "rate of fire": 7,
+                  "damage falloff": 0.5,
+                  "projectile speed": 10000,
+                  "maximum range": 5000,
+                  "charge time": 1.5,
+                  "accuracy": 1.5,
+                  "aim time": 4,
+                  "turning speed": 50
+                }
+              ],
+              "Hybrid": [
+                {
+                  "turret type": "Beam",
+                  "turret size": "Medium",
+                  "damage per second": 56.6,
+                  "damage per shot": 570,
+                  "rate of fire": 7,
+                  "damage falloff": 0.5,
+                  "projectile speed": 10000,
+                  "maximum range": 5000,
+                  "charge time": 1.5,
+                  "accuracy": 1.5,
+                  "aim time": 4,
+                  "turning speed": 50
+                }
+              ]
+            }
+          ],
+          "flak": [
+            {
+              "I": [
+                {
+                  "turret type": "Flak",
+                  "turret size": "Small",
+                  "damage per second": 14,
+                  "damage per shot": 7,
+                  "rate of fire": 120,
+                  "projectile speed": 3200,
+                  "maximum range": 4000,
+                  "accuracy": 1.25,
+                  "burst proximity": 100,
+                  "turning speed": 150
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Flak",
+                  "turret size": "Small",
+                  "damage per second": 16,
+                  "damage per shot": 8,
+                  "rate of fire": 120,
+                  "projectile speed": 3200,
+                  "maximum range": 4000,
+                  "accuracy": 1.25,
+                  "burst proximity": 100,
+                  "turning speed": 150
+                }
+              ],
+              "III": [
+                {
+                  "turret type": "Flak",
+                  "turret size": "Small",
+                  "damage per second": 18,
+                  "damage per shot": 9,
+                  "rate of fire": 120,
+                  "projectile speed": 3200,
+                  "maximum range": 4000,
+                  "accuracy": 1.25,
+                  "burst proximity": 100,
+                  "turning speed": 150
+                }
+              ],
+              "Dread": [
+                {
+                  "turret type": "Flak",
+                  "turret size": "Small",
+                  "damage per second": 20,
+                  "damage per shot": 10,
+                  "rate of fire": 120,
+                  "projectile speed": 3200,
+                  "maximum range": 4000,
+                  "accuracy": 1.25,
+                  "burst proximity": 100,
+                  "turning speed": 150
+                }
+              ]
+            }
+          ],
+          "railgun": [
+            {
+              "I": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Small",
+                  "damage per second": 15.1,
+                  "damage per shot": 160,
+                  "rate of fire": 7,
+                  "projectile speed": 7500,
+                  "maximum range": 5000,
+                  "charge time": 2,
+                  "accuracy": 3,
+                  "aim time": 4,
+                  "turning speed": 60,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Small",
+                  "damage per second": 17,
+                  "damage per shot": 180,
+                  "rate of fire": 7,
+                  "projectile speed": 7500,
+                  "maximum range": 5000,
+                  "charge time": 2,
+                  "accuracy": 3,
+                  "aim time": 4,
+                  "turning speed": 60,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "III": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Small",
+                  "damage per second": 18.9,
+                  "damage per shot": 200,
+                  "rate of fire": 7,
+                  "projectile speed": 7500,
+                  "maximum range": 5000,
+                  "charge time": 2,
+                  "accuracy": 3,
+                  "aim time": 4,
+                  "turning speed": 60,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "Ancient": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Small",
+                  "damage per second": 20.9,
+                  "damage per shot": 220,
+                  "rate of fire": 7,
+                  "projectile speed": 7500,
+                  "maximum range": 5000,
+                  "charge time": 2,
+                  "accuracy": 3,
+                  "aim time": 4,
+                  "turning speed": 60,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "Dread": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Small",
+                  "damage per second": 20.9,
+                  "damage per shot": 220,
+                  "rate of fire": 7,
+                  "projectile speed": 7500,
+                  "maximum range": 5000,
+                  "charge time": 2,
+                  "accuracy": 3,
+                  "aim time": 4,
+                  "turning speed": 60,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ]
+            }
+          ],
+          "railgun-M": [
+            {
+              "I": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Small",
+                  "damage per second": 35.4,
+                  "damage per shot": 425,
+                  "rate of fire": 6,
+                  "projectile speed": 7500,
+                  "maximum range": 5000,
+                  "charge time": 2,
+                  "accuracy": 3,
+                  "aim time": 6,
+                  "turning speed": 15,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Small",
+                  "damage per second": 38.8,
+                  "damage per shot": 465,
+                  "rate of fire": 6,
+                  "projectile speed": 7500,
+                  "maximum range": 5000,
+                  "charge time": 2,
+                  "accuracy": 3,
+                  "aim time": 6,
+                  "turning speed": 15,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "III": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Small",
+                  "damage per second": 42.1,
+                  "damage per shot": 505,
+                  "rate of fire": 6,
+                  "projectile speed": 7500,
+                  "maximum range": 5000,
+                  "charge time": 2,
+                  "accuracy": 3,
+                  "aim time": 6,
+                  "turning speed": 15,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "Ancient": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Small",
+                  "damage per second": 45.4,
+                  "damage per shot": 545,
+                  "rate of fire": 6,
+                  "projectile speed": 7500,
+                  "maximum range": 5000,
+                  "charge time": 2,
+                  "accuracy": 3,
+                  "aim time": 6,
+                  "turning speed": 15,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "Dread": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Small",
+                  "damage per second": 45.4,
+                  "damage per shot": 545,
+                  "rate of fire": 6,
+                  "projectile speed": 7500,
+                  "maximum range": 5000,
+                  "charge time": 2,
+                  "accuracy": 3,
+                  "aim time": 6,
+                  "turning speed": 15,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ]
+            }
+          ],
+          "coilgun": [
+            {
+              "I": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Small",
+                  "damage per second": 40,
+                  "damage per shot": 20,
+                  "rate of fire": 120,
+                  "projectile speed": 2750,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Small",
+                  "damage per second": 43,
+                  "damage per shot": 21.5,
+                  "rate of fire": 120,
+                  "projectile speed": 2750,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "III": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Small",
+                  "damage per second": 46,
+                  "damage per shot": 23,
+                  "rate of fire": 120,
+                  "projectile speed": 2750,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "Ancient": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Small",
+                  "damage per second": 49,
+                  "damage per shot": 24.5,
+                  "rate of fire": 120,
+                  "projectile speed": 2750,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "Dread": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Small",
+                  "damage per second": 49,
+                  "damage per shot": 24.5,
+                  "rate of fire": 120,
+                  "projectile speed": 2750,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ]
+            }
+          ],
+          "coilgun-M": [
+            {
+              "I": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Medium",
+                  "damage per second": 90,
+                  "damage per shot": 45,
+                  "rate of fire": 120,
+                  "projectile speed": 2750,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Medium",
+                  "damage per second": 96,
+                  "damage per shot": 48,
+                  "rate of fire": 120,
+                  "projectile speed": 2750,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "III": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Medium",
+                  "damage per second": 102,
+                  "damage per shot": 51,
+                  "rate of fire": 120,
+                  "projectile speed": 2750,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "Ancient": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Medium",
+                  "damage per second": 108,
+                  "damage per shot": 54,
+                  "rate of fire": 120,
+                  "projectile speed": 2750,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "Dread": [
+                {
+                  "turret type": "Kinetic",
+                  "turret size": "Medium",
+                  "damage per second": 108,
+                  "damage per shot": 54,
+                  "rate of fire": 120,
+                  "projectile speed": 2750,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ]
+            }
+          ],
+          "shrapnel": [
+            {
+              "I": [
+                {
+                  "turret type": "Shotgun",
+                  "turret size": "Small",
+                  "damage per second": 58.3,
+                  "damage per shot": 100,
+                  "rate of fire": 35,
+                  "projectile speed": 1500,
+                  "maximum range": 2500,
+                  "accuracy": 3,
+                  "turning speed": 50,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Shotgun",
+                  "turret size": "Small",
+                  "damage per second": 61.3,
+                  "damage per shot": 105,
+                  "rate of fire": 35,
+                  "projectile speed": 1500,
+                  "maximum range": 2500,
+                  "accuracy": 3,
+                  "turning speed": 50,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "III": [
+                {
+                  "turret type": "Shotgun",
+                  "turret size": "Small",
+                  "damage per second": 64.2,
+                  "damage per shot": 110,
+                  "rate of fire": 35,
+                  "projectile speed": 1500,
+                  "maximum range": 2500,
+                  "accuracy": 3,
+                  "turning speed": 50,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ],
+              "Dread": [
+                {
+                  "turret type": "Shotgun",
+                  "turret size": "Small",
+                  "damage per second": 67.1,
+                  "damage per shot": 115,
+                  "rate of fire": 35,
+                  "projectile speed": 1500,
+                  "maximum range": 2500,
+                  "accuracy": 3,
+                  "turning speed": 50,
+                  "hull damage multiplier": "1.25x",
+                  "shield damage multiplier": "0.65x"
+                }
+              ]
+            }
+          ],
+          "blaster": [
+            {
+              "I": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Small",
+                  "damage per second": 42,
+                  "damage per shot": 14,
+                  "rate of fire": 180,
+                  "projectile speed": 3200,
+                  "maximum range": 4200,
+                  "accuracy": 0.25,
+                  "turning speed": 80
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Small",
+                  "damage per second": 45,
+                  "damage per shot": 15,
+                  "rate of fire": 180,
+                  "projectile speed": 3200,
+                  "maximum range": 4200,
+                  "accuracy": 0.25,
+                  "turning speed": 80
+                }
+              ],
+              "III": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Small",
+                  "damage per second": 48,
+                  "damage per shot": 16,
+                  "rate of fire": 180,
+                  "projectile speed": 3200,
+                  "maximum range": 4200,
+                  "accuracy": 0.25,
+                  "turning speed": 80
+                }
+              ],
+              "Hybrid": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Small",
+                  "damage per second": 51,
+                  "damage per shot": 17,
+                  "rate of fire": 180,
+                  "projectile speed": 3200,
+                  "maximum range": 4200,
+                  "accuracy": 0.25,
+                  "turning speed": 80
+                }
+              ]
+            }
+          ],
+          "blaster-M": [
+            {
+              "I": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Medium",
+                  "damage per second": 96,
+                  "damage per shot": 32,
+                  "rate of fire": 180,
+                  "projectile speed": 2500,
+                  "maximum range": 4200,
+                  "accuracy": 0.25,
+                  "turning speed": 45
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Medium",
+                  "damage per second": 102,
+                  "damage per shot": 34,
+                  "rate of fire": 180,
+                  "projectile speed": 2500,
+                  "maximum range": 4200,
+                  "accuracy": 0.25,
+                  "turning speed": 45
+                }
+              ],
+              "III": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Medium",
+                  "damage per second": 108,
+                  "damage per shot": 36,
+                  "rate of fire": 180,
+                  "projectile speed": 2500,
+                  "maximum range": 4200,
+                  "accuracy": 0.25,
+                  "turning speed": 45
+                }
+              ],
+              "Hybrid": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Medium",
+                  "damage per second": 114,
+                  "damage per shot": 38,
+                  "rate of fire": 180,
+                  "projectile speed": 2500,
+                  "maximum range": 4200,
+                  "accuracy": 0.25,
+                  "turning speed": 45
+                }
+              ]
+            }
+          ],
+          "cannon": [
+            {
+              "I": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Small",
+                  "damage per second": 45,
+                  "damage per shot": 60,
+                  "rate of fire": 45,
+                  "projectile speed": 1250,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Small",
+                  "damage per second": 48.8,
+                  "damage per shot": 65,
+                  "rate of fire": 45,
+                  "projectile speed": 1250,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45
+                }
+              ],
+              "III": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Small",
+                  "damage per second": 52.5,
+                  "damage per shot": 70,
+                  "rate of fire": 45,
+                  "projectile speed": 1250,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45
+                }
+              ],
+              "Hybrid": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Small",
+                  "damage per second": 56.2,
+                  "damage per shot": 75,
+                  "rate of fire": 45,
+                  "projectile speed": 1250,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45
+                }
+              ]
+            }
+          ],
+          "cannon-M": [
+            {
+              "I": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Medium",
+                  "damage per second": 101.2,
+                  "damage per shot": 135,
+                  "rate of fire": 45,
+                  "projectile speed": 1250,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 15
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Medium",
+                  "damage per second": 108.8,
+                  "damage per shot": 145,
+                  "rate of fire": 45,
+                  "projectile speed": 1250,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 15
+                }
+              ],
+              "III": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Medium",
+                  "damage per second": 116.2,
+                  "damage per shot": 155,
+                  "rate of fire": 45,
+                  "projectile speed": 1250,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 15
+                }
+              ],
+              "Hybrid": [
+                {
+                  "turret type": "Laser",
+                  "turret size": "Medium",
+                  "damage per second": 123.8,
+                  "damage per shot": 165,
+                  "rate of fire": 45,
+                  "projectile speed": 1250,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 15
+                }
+              ]
+            }
+          ],
+          "ion": [
+            {
+              "I": [
+                {
+                  "turret type": "Ion",
+                  "turret size": "Small",
+                  "damage per second": 40,
+                  "damage per shot": 20,
+                  "rate of fire": 120,
+                  "projectile speed": 2000,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 70,
+                  "hull damage multiplier": "0.65x",
+                  "shield damage multiplier": "1.25x"
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Ion",
+                  "turret size": "Small",
+                  "damage per second": 42,
+                  "damage per shot": 21,
+                  "rate of fire": 120,
+                  "projectile speed": 2000,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 70,
+                  "hull damage multiplier": "0.65x",
+                  "shield damage multiplier": "1.25x"
+                }
+              ],
+              "III": [
+                {
+                  "turret type": "Ion",
+                  "turret size": "Small",
+                  "damage per second": 44,
+                  "damage per shot": 22,
+                  "rate of fire": 120,
+                  "projectile speed": 2000,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 70,
+                  "hull damage multiplier": "0.65x",
+                  "shield damage multiplier": "1.25x"
+                }
+              ],
+              "Hybrid": [
+                {
+                  "turret type": "Ion",
+                  "turret size": "Small",
+                  "damage per second": 46,
+                  "damage per shot": 23,
+                  "rate of fire": 120,
+                  "projectile speed": 2000,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 70,
+                  "hull damage multiplier": "0.65x",
+                  "shield damage multiplier": "1.25x"
+                }
+              ]
+            }
+          ],
+          "ion-M": [
+            {
+              "I": [
+                {
+                  "turret type": "Ion",
+                  "turret size": "Small",
+                  "damage per second": 90,
+                  "damage per shot": 45,
+                  "rate of fire": 120,
+                  "projectile speed": 2000,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45,
+                  "hull damage multiplier": "0.65x",
+                  "shield damage multiplier": "1.25x"
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Ion",
+                  "turret size": "Small",
+                  "damage per second": 96,
+                  "damage per shot": 48,
+                  "rate of fire": 120,
+                  "projectile speed": 2000,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45,
+                  "hull damage multiplier": "0.65x",
+                  "shield damage multiplier": "1.25x"
+                }
+              ],
+              "III": [
+                {
+                  "turret type": "Ion",
+                  "turret size": "Small",
+                  "damage per second": 102,
+                  "damage per shot": 51,
+                  "rate of fire": 120,
+                  "projectile speed": 2000,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45,
+                  "hull damage multiplier": "0.65x",
+                  "shield damage multiplier": "1.25x"
+                }
+              ],
+              "Hybrid": [
+                {
+                  "turret type": "Ion",
+                  "turret size": "Small",
+                  "damage per second": 108,
+                  "damage per shot": 54,
+                  "rate of fire": 120,
+                  "projectile speed": 2000,
+                  "maximum range": 4000,
+                  "accuracy": 0.25,
+                  "turning speed": 45,
+                  "hull damage multiplier": "0.65x",
+                  "shield damage multiplier": "1.25x"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "miners": [
+        {
+          "miner": [
+            {
+              "I": [
+                {
+                  "turret type": "Miner",
+                  "turret size": "Small",
+                  "ore per minute": 3.4,
+                  "capture ratio": 0.65,
+                  "ore release": 3.4,
+                  "ore capture": 2.21,
+                  "ice yield": 0.5,
+                  "maximum range": 2000,
+                  "charge time": 2,
+                  "turning speed": 25
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Miner",
+                  "turret size": "Small",
+                  "ore per minute": 3.7,
+                  "capture ratio": 0.65,
+                  "ore release": 3.7,
+                  "ore capture": 2.41,
+                  "ice yield": 0.5,
+                  "maximum range": 2000,
+                  "charge time": 2,
+                  "turning speed": 25
+                }
+              ]
+            }
+          ],
+          "strip miner": [
+            {
+              "I": [
+                {
+                  "turret type": "Miner",
+                  "turret size": "Small",
+                  "ore per minute": 5.1,
+                  "capture ratio": 0.5,
+                  "ore release": 5.1,
+                  "ore capture": 2.55,
+                  "ice yield": 0.4,
+                  "maximum range": 2000,
+                  "charge time": 2,
+                  "turning speed": 25
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Miner",
+                  "turret size": "Small",
+                  "ore per minute": 5.9,
+                  "capture ratio": 0.5,
+                  "ore release": 5.9,
+                  "ore capture": 2.95,
+                  "ice yield": 0.4,
+                  "maximum range": 2000,
+                  "charge time": 2,
+                  "turning speed": 25
+                }
+              ]
+            }
+          ],
+          "precision miner": [
+            {
+              "I": [
+                {
+                  "turret type": "Miner",
+                  "turret size": "Small",
+                  "ore per minute": 3.5,
+                  "capture ratio": 0.85,
+                  "ore release": 3.5,
+                  "ore capture": 2.975,
+                  "ice yield": 0.55,
+                  "maximum range": 2000,
+                  "charge time": 2,
+                  "turning speed": 25
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Miner",
+                  "turret size": "Small",
+                  "ore per minute": 3.7,
+                  "capture ratio": 0.9,
+                  "ore release": 3.7,
+                  "ore capture": 3.33,
+                  "ice yield": 0.55,
+                  "maximum range": 2000,
+                  "charge time": 2,
+                  "turning speed": 25
+                }
+              ]
+            }
+          ],
+          "ice miner": [
+            {
+              "I": [
+                {
+                  "turret type": "Miner",
+                  "turret size": "Small",
+                  "ore per minute": 3,
+                  "capture ratio": 0.65,
+                  "ore release": 3,
+                  "ore capture": 1.95,
+                  "ice yield": 1,
+                  "maximum range": 2000,
+                  "charge time": 2,
+                  "turning speed": 25
+                }
+              ],
+              "II": [
+                {
+                  "turret type": "Miner",
+                  "turret size": "Small",
+                  "ore per minute": 4,
+                  "capture ratio": 0.65,
+                  "ore release": 4,
+                  "ore capture": 2.6,
+                  "ice yield": 1,
+                  "maximum range": 2000,
+                  "charge time": 2,
+                  "turning speed": 25
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pts": [{}]
+    }
+  ]
+}

@@ -1,0 +1,1702 @@
+{
+  "modules": [
+    {
+      "subsystems": [
+        {
+          "energy booster": [
+            {
+              "I": [
+                {
+                  "energy capacity": 0.95,
+                  "cooldown time": 180,
+                  "energy reserves": 1.3
+                }
+              ],
+              "II": [
+                {
+                  "energy capacity": 0.95,
+                  "cooldown time": 180,
+                  "energy reserves": 1.375
+                }
+              ],
+              "III": [
+                {
+                  "energy capacity": 0.95,
+                  "cooldown time": 180,
+                  "energy reserves": 1.45
+                }
+              ],
+              "Dread": [
+                {
+                  "energy capacity": 0.95,
+                  "cooldown time": 180,
+                  "energy reserves": 1.525
+                }
+              ]
+            }
+          ],
+          "disruptor": [
+            {
+              "I": [
+                {
+                  "energy regen": 0.1,
+                  "cooldown time": 12.5,
+                  "activation energy": 10,
+                  "energy per second": -3,
+                  "targeting range": 1500
+                }
+              ],
+              "II": [
+                {
+                  "energy regen": 0.1,
+                  "cooldown time": 12.5,
+                  "activation energy": 10,
+                  "energy per second": -2.5,
+                  "targeting range": 1750
+                }
+              ],
+              "III": [
+                {
+                  "energy regen": 0.1,
+                  "cooldown time": 12.5,
+                  "activation energy": 10,
+                  "energy per second": -2,
+                  "targeting range": 2000
+                }
+              ],
+              "Hybrid": [
+                {
+                  "energy regen": 0.1,
+                  "cooldown time": 12.5,
+                  "activation energy": 10,
+                  "energy per second": -1.5,
+                  "targeting range": 2250
+                }
+              ],
+              "Dread": [{
+                "energy regen": 0.1,
+                "cooldown time": 12.5,
+                "activation energy": 10,
+                "energy per second": -1.5,
+                "targeting range": 2250
+              }]
+
+            }
+          ],
+          "afterburner-s": [
+            {
+              "I": [
+                {
+                  "activation energy": 5,
+                  "energy per second": 5,
+                  "boost speed": 60
+                }
+              ],
+              "II": [
+                {
+                  "activation energy": 5,
+                  "energy per second": 5,
+                  "boost speed": 70
+                }
+              ],
+              "III": [
+                {
+                  "activation energy": 5,
+                  "energy per second": 5,
+                  "boost speed": 80
+                }
+              ],
+              "Ancient": [
+                {
+                  "activation energy": 5,
+                  "energy per second": 5,
+                  "boost speed": 90
+                }
+              ],
+              "Hybrid": [{
+                "activation energy": 5,
+                "energy per second": 5,
+                "boost speed": 90
+              }]
+            }
+          ],
+          "hull booster": [
+            {
+              "I": [
+                {
+                  "activation energy": 0.15,
+                  "hull per energy": 1.5,
+                  "cooldown": 10
+                }
+              ],
+              "II": [
+                {
+                  "activation energy": 0.15,
+                  "hull per energy": 2,
+                  "cooldown": 10
+                }
+              ],
+              "III": [
+                {
+                  "activation energy": 0.15,
+                  "hull per energy": 2.5,
+                  "cooldown": 10
+                }
+              ],
+              "Ancient": [
+                {
+                  "activation energy": 0.15,
+                  "hull per energy": 3,
+                  "cooldown": 10
+                }
+              ]
+            }
+          ],
+          "overclocker": [
+            {
+              "I": [
+                {
+                  "rate of fire": 1.35,
+                  "activation energy": 50,
+                  "duration": 10,
+                  "cooldown": 90
+                }
+              ],
+              "II": [
+                {
+                  "rate of fire": 1.4,
+                  "activation energy": 50,
+                  "duration": 10,
+                  "cooldown": 90
+                }
+              ],
+              "III": [
+                {
+                  "rate of fire": 1.45,
+                  "activation energy": 50,
+                  "duration": 10,
+                  "cooldown": 90
+                }
+              ],
+              "Ancient": [
+                {
+                  "rate of fire": 1.5,
+                  "activation energy": 50,
+                  "duration": 10,
+                  "cooldown": 90
+                }
+              ],
+              "Hybrid": [{
+                "rate of fire": 1.5,
+                "activation energy": 50,
+                "duration": 10,
+                "cooldown": 90
+              }]
+            }
+          ],
+          "servo surge": [
+            {
+              "I": [
+                {
+                  "turret agility": 1.75,
+                  "activation energy": 50,
+                  "duration": 10,
+                  "cooldown": 90
+                }
+              ],
+              "II": [
+                {
+                  "turret agility": 2,
+                  "activation energy": 50,
+                  "duration": 10,
+                  "cooldown": 90
+                }
+              ],
+              "III": [
+                {
+                  "turret agility": 2.25,
+                  "activation energy": 50,
+                  "duration": 10,
+                  "cooldown": 90
+                }
+              ],
+              "Dread": [
+                {
+                  "turret agility": 2.5,
+                  "activation energy": 50,
+                  "duration": 10,
+                  "cooldown": 90
+                }
+              ]
+            }
+          ],
+          "heavy hull repairer": [
+            {
+              "I": [
+                {
+                  "hull regen": 90,
+                  "activation energy": 100,
+                  "energy per second": 30,
+                  "cooldown": 1
+                }
+              ],
+              "II": [
+                {
+                  "hull regen": 108,
+                  "activation energy": 100,
+                  "energy per second": 30,
+                  "cooldown": 1
+                }
+              ],
+              "III": [
+                {
+                  "hull regen": 126,
+                  "activation energy": 100,
+                  "energy per second": 30,
+                  "cooldown": 1
+                }
+              ],
+              "Dread": [
+                {
+                  "hull regen": 144,
+                  "activation energy": 100,
+                  "energy per second": 30,
+                  "cooldown": 1
+                }
+              ]
+            }
+          ],
+          "heavy shield repairer": [
+            {
+              "I": [
+                {
+                  "shield regen": 90,
+                  "activation energy": 100,
+                  "energy per second": 30,
+                  "cooldown": 1
+                }
+              ],
+              "II": [
+                {
+                  "shield regen": 108,
+                  "activation energy": 100,
+                  "energy per second": 30,
+                  "cooldown": 1
+                }
+              ],
+              "III": [
+                {
+                  "shield regen": 126,
+                  "activation energy": 100,
+                  "energy per second": 30,
+                  "cooldown": 1
+                }
+              ],
+              "Hybrid": [
+                {
+                  "shield regen": 144,
+                  "activation energy": 100,
+                  "energy per second": 30,
+                  "cooldown": 1
+                }
+              ]
+            }
+          ],
+          "heavy armor booster": [{
+            "Ancient":[{
+              "armor boost": 12,
+              "activation energy": 50,
+              "energy per second": 30,
+              "cooldown": 2
+            }]
+          }],
+          "light armor booster": [{
+            "Ancient":[{
+              "armor boost": 3,
+              "activation energy": 10,
+              "energy per second": 6,
+              "cooldown": 2
+            }]
+          }],
+          "lightburner-L": [{
+            "III":[{
+              "class restriction": "Large",
+              "limit per ship": 1,
+              "activation energy": 500,
+              "cooldown": 150,
+              "charge time": 3,
+              "jump range": 4000
+            }],
+            "Ancient":[{
+              "class restriction": "Large",
+              "limit per ship": 1,
+              "activation energy": 500,
+              "cooldown": 150,
+              "charge time": 3,
+              "jump range": 6000
+            }]
+          }],
+          "lightburner-M": [{
+            "III":[{
+              "class restriction": "Medium",
+              "limit per ship": 1,
+              "activation energy": 165,
+              "cooldown": 150,
+              "charge time": 3,
+              "jump range": 4000
+            }],
+            "Ancient":[{
+              "class restriction": "Medium",
+              "limit per ship": 1,
+              "activation energy": 165,
+              "cooldown": 150,
+              "charge time": 3,
+              "jump range": 6000
+            }]
+          }],
+          "lightburner-S": [{
+            "III":[{
+              "class restriction": "Small",
+              "limit per ship": 1,
+              "activation energy": 55,
+              "cooldown": 150,
+              "charge time": 3,
+              "jump range": 4000
+            }],
+            "Ancient":[{
+              "class restriction": "Small",
+              "limit per ship": 1,
+              "activation energy": 55,
+              "cooldown": 150,
+              "charge time": 3,
+              "jump range": 6000
+            }]
+          }],
+          "medium armor booster": [{
+            "Ancient":[{
+              "armor boost": 6,
+              "activation energy": 30,
+              "energy per second": 12,
+              "cooldown": 2
+            }]
+          }],
+          "overdrive-M": [{
+            "I":[{
+              "class restriction": "Medium",
+              "limit per ship": 1,
+              "activation energy": 5,
+              "energy per second": 12,
+              "cooldown": 1,
+              "boost speed": 50
+            }],
+            "II":[{
+              "class restriction": "Medium",
+              "limit per ship": 1,
+              "activation energy": 5,
+              "energy per second": 12,
+              "cooldown": 1,
+              "boost speed": 58
+            }],
+            "III":[{
+              "class restriction": "Medium",
+              "limit per ship": 1,
+              "activation energy": 5,
+              "energy per second": 12,
+              "cooldown": 1,
+              "boost speed": 66
+            }],
+            "Ancient":[{
+              "class restriction": "Medium",
+              "limit per ship": 1,
+              "activation energy": 5,
+              "energy per second": 12,
+              "cooldown": 1,
+              "boost speed": 74
+            }],
+            "Hybrid":[{
+              "class restriction": "Medium",
+              "limit per ship": 1,
+              "activation energy": 5,
+              "energy per second": 12,
+              "cooldown": 1,
+              "boost speed": 74
+            }]
+          }],
+          "overdrive-L": [{
+            "I":[{
+              "class restriction": "Large",
+              "limit per ship": 1,
+              "activation energy": 5,
+              "energy per second": 28,
+              "cooldown": 1,
+              "boost speed": 40
+            }],
+            "II":[{
+              "class restriction": "Large",
+              "limit per ship": 1,
+              "activation energy": 5,
+              "energy per second": 28,
+              "cooldown": 1,
+              "boost speed": 46
+            }],
+            "III":[{
+              "class restriction": "Large",
+              "limit per ship": 1,
+              "activation energy": 5,
+              "energy per second": 28,
+              "cooldown": 1,
+              "boost speed": 52
+            }],
+            "Ancient":[{
+              "class restriction": "Large",
+              "limit per ship": 1,
+              "activation energy": 5,
+              "energy per second": 28,
+              "cooldown": 1,
+              "boost speed": 58
+            }],
+            "Hybrid":[{
+              "class restriction": "Large",
+              "limit per ship": 1,
+              "activation energy": 5,
+              "energy per second": 28,
+              "cooldown": 1,
+              "boost speed": 58
+            }]
+          }],
+          "blink drive": [{
+            "I":[{
+              "class restriction": "Small",
+              "limit per ship": 1,
+              "activation energy": 50,
+              "cooldown": 35,
+              "charge time": 0,
+              "jump range": 2000
+            }],
+            "II":[{
+              "class restriction": "Small",
+              "limit per ship": 1,
+              "activation energy": 50,
+              "cooldown": 30,
+              "charge time": 0,
+              "jump range": 2000
+            }],
+            "III":[{
+              "class restriction": "Small",
+              "limit per ship": 1,
+              "activation energy": 50,
+              "cooldown": 25,
+              "charge time": 0,
+              "jump range": 2000
+            }],
+            "Dread":[{
+              "class restriction": "Small",
+              "limit per ship": 1,
+              "activation energy": 50,
+              "cooldown": 20,
+              "charge time": 0,
+              "jump range": 2000
+            }]
+          }],
+          "heavy sensor jammer": [{
+            "I":[{
+              "energy regen": 0.25,
+              "activation energy": 50,
+              "energy per second": 10,
+              "cooldown": 10,
+              "cycle period": 5,
+              "jam duration": 10,
+              "jamming strength": 15,
+              "targeting range": 5000
+            }],
+            "II":[{
+              "energy regen": 0.25,
+              "activation energy": 50,
+              "energy per second": 10,
+              "cooldown": 10,
+              "cycle period": 5,
+              "jam duration": 12.5,
+              "jamming strength": 15,
+              "targeting range": 5000
+            }],
+            "III":[{
+              "energy regen": 0.25,
+              "activation energy": 50,
+              "energy per second": 10,
+              "cooldown": 10,
+              "cycle period": 5,
+              "jam duration": 15,
+              "jamming strength": 15,
+              "targeting range": 5000
+            }],
+            "Dread":[{
+              "energy regen": 0.25,
+              "activation energy": 50,
+              "energy per second": 10,
+              "cooldown": 10,
+              "cycle period": 5,
+              "jam duration": 17.5,
+              "jamming strength": 15,
+              "targeting range": 5000
+            }]
+          }],
+          "light hull repairer": [{
+            "I":[{
+              "hull regen": 10,
+              "activation energy": 15,
+              "energy per second": 5,
+              "cooldown": 1
+            }],
+            "II":[{
+              "hull regen": 12,
+              "activation energy": 15,
+              "energy per second": 5,
+              "cooldown": 1
+            }],
+            "III":[{
+              "hull regen": 14,
+              "activation energy": 15,
+              "energy per second": 5,
+              "cooldown": 1
+            }],
+            "Dread":[{
+              "hull regen": 16,
+              "activation energy": 15,
+              "energy per second": 5,
+              "cooldown": 1
+            }]
+          }],
+          "light sensor jammer": [{
+            "I":[{
+              "energy regen": 0.25,
+              "activation energy": 10,
+              "energy per second": 2.5,
+              "cooldown": 10,
+              "cycle period": 5,
+              "jam duration": 10,
+              "jamming strength": 5,
+              "targeting range": 5000
+            }],
+            "II":[{
+              "energy regen": 0.25,
+              "activation energy": 10,
+              "energy per second": 2.5,
+              "cooldown": 10,
+              "cycle period": 5,
+              "jam duration": 12.5,
+              "jamming strength": 5,
+              "targeting range": 5000
+            }],
+            "III":[{
+              "energy regen": 0.25,
+              "activation energy": 10,
+              "energy per second": 2.5,
+              "cooldown": 10,
+              "cycle period": 5,
+              "jam duration": 15,
+              "jamming strength": 5,
+              "targeting range": 5000
+            }],
+            "Dread":[{
+              "energy regen": 0.25,
+              "activation energy": 10,
+              "energy per second": 2.5,
+              "cooldown": 10,
+              "cycle period": 5,
+              "jam duration": 17.5,
+              "jamming strength": 5,
+              "targeting range": 5000
+            }]
+          }],
+          "medium hull repairer": [{
+            "I":[{
+              "hull regen": 30,
+              "activation energy": 35,
+              "energy per second": 12.5,
+              "cooldown": 1
+            }],
+            "II":[{
+              "hull regen": 36,
+              "activation energy": 35,
+              "energy per second": 12.5,
+              "cooldown": 1
+            }],
+            "III":[{
+              "hull regen": 42,
+              "activation energy": 35,
+              "energy per second": 12.5,
+              "cooldown": 1
+            }],
+            "Dread":[{
+              "hull regen": 48,
+              "activation energy": 35,
+              "energy per second": 12.5,
+              "cooldown": 1
+            }]
+          }],
+          "sensor jammer": [{
+            "I":[{
+              "energy regen": 0.25,
+              "activation energy": 25,
+              "energy per second": 5,
+              "cooldown": 10,
+              "cycle period": 5,
+              "jam duration": 10,
+              "jamming strength": 10,
+              "targeting range": 5000
+            }],
+            "II":[{
+              "energy regen": 0.25,
+              "activation energy": 25,
+              "energy per second": 5,
+              "cooldown": 10,
+              "cycle period": 5,
+              "jam duration": 12.5,
+              "jamming strength": 10,
+              "targeting range": 5000
+            }],
+            "III":[{
+              "energy regen": 0.25,
+              "activation energy": 25,
+              "energy per second": 5,
+              "cooldown": 10,
+              "cycle period": 5,
+              "jam duration": 15,
+              "jamming strength": 10,
+              "targeting range": 5000
+            }],
+            "Dread":[{
+              "energy regen": 0.25,
+              "activation energy": 25,
+              "energy per second": 5,
+              "cooldown": 10,
+              "cycle period": 5,
+              "jam duration": 17.5,
+              "jamming strength": 10,
+              "targeting range": 5000
+            }]
+          }],
+          "light shield repairer": [{
+            "I": [{
+              "shield regen": 10,
+              "activation energy": 15,
+              "energy per second": 5,
+              "cooldown": 1
+            }],
+            "II": [{
+              "shield regen": 12,
+              "activation energy": 15,
+              "energy per second": 5,
+              "cooldown": 1
+            }],
+            "III": [{
+              "shield regen": 14,
+              "activation energy": 15,
+              "energy per second": 5,
+              "cooldown": 1
+            }],
+            "Hybrid": [{
+              "shield regen": 16,
+              "activation energy": 15,
+              "energy per second": 5,
+              "cooldown": 1
+            }]
+          }],
+          "medium shield repairer": [{
+            "I": [{
+              "shield regen": 30,
+              "activation energy": 35,
+              "energy per second": 12.5,
+              "cooldown": 1
+            }],
+            "II": [{
+              "shield regen": 36,
+              "activation energy": 35,
+              "energy per second": 12.5,
+              "cooldown": 1
+            }],
+            "III": [{
+              "shield regen": 42,
+              "activation energy": 35,
+              "energy per second": 12.5,
+              "cooldown": 1
+            }],
+            "Hybrid": [{
+              "shield regen": 48,
+              "activation energy": 35,
+              "energy per second": 12.5,
+              "cooldown": 1
+            }]
+          }],
+          "shield booster": [{
+            "I":[{
+              "activation energy": 0.15,
+              "cooldown": 10,
+              "shield per energy": 1.5
+            }],
+            "II":[{
+              "activation energy": 0.15,
+              "cooldown": 10,
+              "shield per energy": 1.5
+            }],"III":[{
+              "activation energy": 0.15,
+              "cooldown": 10,
+              "shield per energy": 1.5
+            }],
+            "Hybrid":[{
+              "activation energy": 0.15,
+              "cooldown": 10,
+              "shield per energy": 1.5
+            }]
+
+          }],
+          "stasis field": [{
+            "I":[{
+              "energy regen": 0.25,
+              "activation energy":10,
+              "energy per second": 3,
+              "cooldown": 5,
+              "targeting range": 3500
+            }],
+            "II":[{
+              "energy regen": 0.25,
+              "activation energy":10,
+              "energy per second": 3,
+              "cooldown": 5,
+              "targeting range": 3500
+            }],
+            "III":[{
+              "energy regen": 0.25,
+              "activation energy":10,
+              "energy per second": 3,
+              "cooldown": 5,
+              "targeting range": 3500
+            }],
+            "Hybrid":[{
+              "energy regen": 0.25,
+              "activation energy":10,
+              "energy per second": 3,
+              "cooldown": 5,
+              "targeting range": 3500
+            }]
+          }]
+        }
+      ],
+      "rigs": [
+        {
+          "defense": [
+            {
+              "reinforced hull": [
+                {
+                  "I": [
+                    {
+                      "hull points": 1.1,
+                      "agility": 0.95
+                    }
+                  ],
+                  "II": [
+                    {
+                      "hull points": 1.15,
+                      "agility": 0.95
+                    }
+                  ],
+                  "III": [
+                    {
+                      "hull points": 1.2,
+                      "agility": 0.95
+                    }
+                  ],
+                  "Dread": [
+                    {
+                      "hull points": 1.25,
+                      "agility": 0.95
+                    }
+                  ]
+                }
+              ],
+              "patcher nanobots": [
+                {
+                  "I": [
+                    {
+                      "hull regen": 1,
+                      "hull points": 0.95,
+                      "energy capacity": 0.95
+                    }
+                  ],
+                  "II": [
+                    {
+                      "hull regen": 2,
+                      "hull points": 0.95,
+                      "energy capacity": 0.95
+                    }
+                  ],
+                  "III": [
+                    {
+                      "hull regen": 3,
+                      "hull points": 0.95,
+                      "energy capacity": 0.95
+                    }
+                  ],
+                  "Hybrid": [
+                    {
+                      "hull regen": 4,
+                      "hull points": 0.95,
+                      "energy capacity": 0.95
+                    }
+                  ]
+                }
+              ],
+              "ultralight chassis": [
+                {
+                  "I": [
+                    {
+                      "agility": 10,
+                      "shield points": 0.94
+                    }
+                  ],
+                  "II": [
+                    {
+                      "agility": 20,
+                      "shield points": 0.88
+                    }
+                  ],
+                  "III": [
+                    {
+                      "agility": 30,
+                      "shield points": 0.82
+                    }
+                  ],
+                  "Dread": [
+                    {
+                      "agility": 40,
+                      "shield points": 0.76
+                    }
+                  ]
+                }
+              ],
+              "composite armor": [
+                {
+                  "I": [
+                    {
+                      "armor points": 1.5,
+                      "agility": 0.95
+                    }
+                  ],
+                  "II": [
+                    {
+                      "armor points": 2,
+                      "agility": 0.95
+                    }
+                  ],
+                  "III": [
+                    {
+                      "armor points": 2.5,
+                      "agility": 0.95
+                    }
+                  ],
+                  "Ancient": [
+                    {
+                      "armor points": 3,
+                      "agility": 0.95
+                    }
+                  ]
+                }
+              ],
+              "reflective panels": [
+                {
+                  "I": [
+                    {
+                      "signal range": 0.9,
+                      "acceleration": 0.9,
+                      "shield points": 0.95,
+                      "hull points": 0.95
+                    }
+                  ],
+                  "II": [
+                    {
+                      "signal range": 0.85,
+                      "acceleration": 0.9,
+                      "shield points": 0.95,
+                      "hull points": 0.95
+                    }
+                  ],
+                  "III": [
+                    {
+                      "signal range": 0.8,
+                      "acceleration": 0.9,
+                      "shield points": 0.95,
+                      "hull points": 0.95
+                    }
+                  ],
+                  "Dread": [
+                    {
+                      "signal range": 0.75,
+                      "acceleration": 0.9,
+                      "shield points": 0.95,
+                      "hull points": 0.95
+                    }
+                  ]
+                }
+              ],
+              "reflective plating": [
+                {
+                  "I": [
+                    {
+                      "signal range": -500,
+                      "shield regen": 0.9,
+                      "energy regen": 0.94
+                    }
+                  ],
+                  "II": [
+                    {
+                      "signal range": -650,
+                      "shield regen": 0.9,
+                      "energy regen": 0.94
+                    }
+                  ],
+                  "III": [
+                    {
+                      "signal range": -800,
+                      "shield regen": 0.9,
+                      "energy regen": 0.94
+                    }
+                  ],
+                  "Dread": [
+                    {
+                      "signal range": -950,
+                      "shield regen": 0.9,
+                      "energy regen": 0.94
+                    }
+                  ]
+                }
+              ],
+              "skeletonized chassis": [
+                {
+                  "I": [
+                    {
+                      "speed": 10,
+                      "agility": 0.95,
+                      "hull points": 0.95
+                    }
+                  ],
+                  "II": [
+                    {
+                      "speed": 13,
+                      "agility": 0.95,
+                      "hull points": 0.95
+                    }
+                  ],
+                  "III": [
+                    {
+                      "speed": 16,
+                      "agility": 0.95,
+                      "hull points": 0.95
+                    }
+                  ],
+                  "Dread": [
+                    {
+                      "speed": 19,
+                      "agility": 0.95,
+                      "hull points": 0.95
+                    }
+                  ]
+                }
+              ],
+              "enhanced deflectors": [
+                {
+                  "I": [
+                    {
+                      "deflector power": 1.5,
+                      "shield points": 0.9
+                    }
+                  ],
+                  "II": [
+                    {
+                      "deflector power": 2,
+                      "shield points": 0.9
+                    }
+                  ],
+                  "III": [
+                    {
+                      "deflector power": 2.5,
+                      "shield points": 0.9
+                    }
+                  ],
+                  "Hybrid": [
+                    {
+                      "deflector power": 3,
+                      "shield points": 0.9
+                    }
+                  ]
+                }
+              ],
+              "hardlight shields": [
+                {
+                  "I": [
+                    {
+                      "shield points": 1.1,
+                      "energy capacity": 0.95
+                    }
+                  ],
+                  "II": [
+                    {
+                      "shield points": 1.15,
+                      "energy capacity": 0.95
+                    }
+                  ],
+                  "III": [
+                    {
+                      "shield points": 1.2,
+                      "energy capacity": 0.95
+                    }
+                  ],
+                  "Hybrid": [
+                    {
+                      "shield points": 1.25,
+                      "energy capacity": 0.95
+                    }
+                  ]
+                }
+              ],
+              "sensor booster": [
+                {
+                  "I": [
+                    {
+                      "sensors": 1.7
+                    }
+                  ],
+                  "II": [
+                    {
+                      "sensors": 1.9
+                    }
+                  ],
+                  "III": [
+                    {
+                      "sensors": 2.1
+                    }
+                  ],
+                  "Hybrid": [
+                    {
+                      "sensors": 2.3
+                    }
+                  ]
+                }
+              ],
+              "shield amplifier": [
+                {
+                  "I": [
+                    {
+                      "shield regen": 1.2,
+                      "energy capacity": 0.925,
+                      "shield points": 0.95
+                    }
+                  ],
+                  "II": [
+                    {
+                      "shield regen": 1.3,
+                      "energy capacity": 0.925,
+                      "shield points": 0.95
+                    }
+                  ],
+                  "III": [
+                    {
+                      "shield regen": 1.4,
+                      "energy capacity": 0.925,
+                      "shield points": 0.95
+                    }
+                  ],
+                  "Hybrid": [
+                    {
+                      "shield regen": 1.5,
+                      "energy capacity": 0.925,
+                      "shield points": 0.95
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "weapon": [
+            {
+              "heavy bolt": [
+                {
+                  "I": [
+                    {
+                      "damage per shot": 1.075,
+                      "rate of fire": 0.95
+                    }
+                  ],
+                  "II": [
+                    {
+                      "damage per shot": 1.1,
+                      "rate of fire": 0.95
+                    }
+                  ],
+                  "III": [
+                    {
+                      "damage per shot": 1.125,
+                      "rate of fire": 0.95
+                    }
+                  ],
+                  "Hybrid": [
+                    {
+                      "damage per shot": 1.15,
+                      "rate of fire": 0.95
+                    }
+                  ]
+                }
+              ],
+              "rapid bolt": [
+                {
+                  "I": [
+                    {
+                      "rate of fire": 1.075,
+                      "damage per shot": 0.95,
+                      "heat gain": 0.95
+                    }
+                  ],
+                  "II": [
+                    {
+                      "rate of fire": 1.1,
+                      "damage per shot": 0.95,
+                      "heat gain": 0.95
+                    }
+                  ],
+                  "III": [
+                    {
+                      "rate of fire": 1.125,
+                      "damage per shot": 0.95,
+                      "heat gain": 0.95
+                    }
+                  ],
+                  "Hybrid": [
+                    {
+                      "rate of fire": 1.15,
+                      "damage per shot": 0.95,
+                      "heat gain": 0.95
+                    }
+                  ]
+                }
+              ],
+              "swift bolt": [
+                {
+                  "I": [
+                    {
+                      "projectile speed": 1.25,
+                      "rate of fire": 0.95
+                    }
+                  ],
+                  "II": [
+                    {
+                      "projectile speed": 1.325,
+                      "rate of fire": 0.95
+                    }
+                  ],
+                  "III": [
+                    {
+                      "projectile speed": 1.4,
+                      "rate of fire": 0.95
+                    }
+                  ],
+                  "Hybrid": [
+                    {
+                      "projectile speed": 1.475,
+                      "rate of fire": 0.95
+                    }
+                  ]
+                }
+              ],
+              "ap rounds": [
+                {
+                  "I": [
+                    {
+                      "armor bypass": 1,
+                      "damage to hull": 0.95
+                    }
+                  ],
+                  "II": [
+                    {
+                      "armor bypass": 1.5,
+                      "damage to hull": 0.95
+                    }
+                  ],
+                  "III": [
+                    {
+                      "armor bypass": 2,
+                      "damage to hull": 0.95
+                    }
+                  ],
+                  "Dread": [
+                    {
+                      "armor bypass": 2.5,
+                      "damage to hull": 0.95
+                    }
+                  ]
+                }
+              ],
+              "he rounds": [
+                {
+                  "I": [
+                    {
+                      "damage to hull": 1.1,
+                      "damage to shield": 0.9,
+                      "projectile speed": 0.96
+                    }
+                  ],
+                  "II": [
+                    {
+                      "damage to hull": 1.125,
+                      "damage to shield": 0.9,
+                      "projectile speed": 0.96
+                    }
+                  ],
+                  "III": [
+                    {
+                      "damage to hull": 1.15,
+                      "damage to shield": 0.9,
+                      "projectile speed": 0.96
+                    }
+                  ],
+                  "Ancient": [
+                    {
+                      "damage to hull": 1.175,
+                      "damage to shield": 0.9,
+                      "projectile speed": 0.96
+                    }
+                  ]
+                }
+              ],
+              "heat sink": [
+                {
+                  "I": [
+                    {
+                      "heat generation": 0.75,
+                      "projectile speed": 0.92
+                    }
+                  ],
+                  "II": [
+                    {
+                      "heat generation": 0.675,
+                      "projectile speed": 0.92
+                    }
+                  ],
+                  "III": [
+                    {
+                      "heat generation": 0.6,
+                      "projectile speed": 0.92
+                    }
+                  ],
+                  "Dread": [
+                    {
+                      "heat generation": 0.525,
+                      "projectile speed": 0.92
+                    }
+                  ]
+                }
+              ],
+              "nullifier rounds": [
+                {
+                  "I": [
+                    {
+                      "deflector bypass": 1,
+                      "damage to shield": 0.95
+                    }
+                  ],
+                  "II": [
+                    {
+                      "deflector bypass": 1.5,
+                      "damage to shield": 0.95
+                    }
+                  ],
+                  "III": [
+                    {
+                      "deflector bypass": 2,
+                      "damage to shield": 0.95
+                    }
+                  ],
+                  "Dread": [
+                    {
+                      "deflector bypass": 2.5,
+                      "damage to shield": 0.95
+                    }
+                  ]
+                }
+              ],
+              "enhanced servos": [
+                {
+                  "I": [
+                    {
+                      "turret agility": 1.25,
+                      "rate of fire": 0.95
+                    }
+                  ],
+                  "II": [
+                    {
+                      "turret agility": 1.325,
+                      "rate of fire": 0.95
+                    }
+                  ],
+                  "III": [
+                    {
+                      "turret agility": 1.4,
+                      "rate of fire": 0.95
+                    }
+                  ],
+                  "Hybrid": [
+                    {
+                      "turret agility": 1.475,
+                      "rate of fire": 0.95
+                    }
+                  ]
+                }
+              ],
+              "ion rounds": [
+                {
+                  "I": [
+                    {
+                      "damage to shield": 1.1,
+                      "damage to hull": 0.9,
+                      "projectile speed": 0.96
+                    }
+                  ],
+                  "II": [
+                    {
+                      "damage to shield": 1.125,
+                      "damage to hull": 0.9,
+                      "projectile speed": 0.96
+                    }
+                  ],
+                  "III": [
+                    {
+                      "damage to shield": 1.15,
+                      "damage to hull": 0.9,
+                      "projectile speed": 0.96
+                    }
+                  ],
+                  "Hybrid": [
+                    {
+                      "damage to shield": 1.175,
+                      "damage to hull": 0.9,
+                      "projectile speed": 0.96
+                    }
+                  ]
+                }
+              ],
+              "coreSec targeter": [
+                {
+                  "I": [
+                    {
+                      "dmg vs drones": 1.25,
+                      "dmg vs pirates": 1.25,
+                      "dmg vs other NPCs": 0.9
+                    }
+                  ]
+                }
+              ],
+              "drone targeter": [
+                {
+                  "I": [
+                    {
+                      "dmg vs other NPCs": 1.25,
+                      "dmg vs drones": 0.75
+                    }
+                  ],
+                  "II": [
+                    {
+                      "dmg vs other NPCs": 1.3,
+                      "dmg vs drones": 0.75
+                    }
+                  ]
+                }
+              ],
+              "foralkan targeter": [
+                {
+                  "I": [
+                    {
+                      "dmg vs Kavani": 1.25,
+                      "dmg vs Lycentia": 1.25,
+                      "dmg vs Foralkus": 0
+                    }
+                  ],
+                  "II": [
+                    {
+                      "dmg vs Kavani": 1.3,
+                      "dmg vs Lycentia": 1.3,
+                      "dmg vs Foralkus": 0
+                    }
+                  ]
+                }
+              ],
+              "kavani targeter": [
+                {
+                  "I": [
+                    {
+                      "dmg vs Foralkus": 1.25,
+                      "dmg vs Lycentia": 1.25,
+                      "dmg vs Kavani": 0
+                    }
+                  ],
+                  "II": [
+                    {
+                      "dmg vs Foralkus": 1.3,
+                      "dmg vs Lycentia": 1.3,
+                      "dmg vs Kavani": 0
+                    }
+                  ]
+                }
+              ],
+              "lycentian targeter": [
+                {
+                  "I": [
+                    {
+                      "dmg vs Kavani": 1.25,
+                      "dmg vs Foralkus": 1.25,
+                      "dmg vs Lycentia": 0
+                    }
+                  ],
+                  "II": [
+                    {
+                      "dmg vs Kavani": 1.3,
+                      "dmg vs Foralkus": 1.3,
+                      "dmg vs Lycentia": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "engine": [
+            {
+              "warp field amplifier": [
+                {
+                  "I": [
+                    {
+                      "warp speed": 1.6,
+                      "warp charge time": 1.15,
+                      "energy capacity": 0.94
+                    }
+                  ],
+                  "II": [
+                    {
+                      "warp speed": 1.75,
+                      "warp charge time": 1.15,
+                      "energy capacity": 0.94
+                    }
+                  ],
+                  "III": [
+                    {
+                      "warp speed": 1.9,
+                      "warp charge time": 1.15,
+                      "energy capacity": 0.94
+                    }
+                  ],
+                  "Dread": [
+                    {
+                      "warp speed": 2.05,
+                      "warp charge time": 1.15,
+                      "energy capacity": 0.94
+                    }
+                  ]
+                }
+              ],
+              "warp charger": [
+                {
+                  "I": [
+                    {
+                      "warp charge time": 0.75,
+                      "warp speed": 0.96,
+                      "energy regen": 0.96
+                    }
+                  ],
+                  "II": [
+                    {
+                      "warp charge time": 0.7,
+                      "warp speed": 0.96,
+                      "energy regen": 0.96
+                    }
+                  ],
+                  "III": [
+                    {
+                      "warp charge time": 0.65,
+                      "warp speed": 0.96,
+                      "energy regen": 0.96
+                    }
+                  ],
+                  "Dread": [
+                    {
+                      "warp charge time": 0.6,
+                      "warp speed": 0.96,
+                      "energy regen": 0.96
+                    }
+                  ]
+                }
+              ],
+              "lightweight engines": [
+                {
+                  "I": [
+                    {
+                      "speed": 10,
+                      "agility": 0.9,
+                      "acceleration": 0.9
+                    }
+                  ],
+                  "II": [
+                    {
+                      "speed": 14,
+                      "agility": 0.9,
+                      "acceleration": 0.9
+                    }
+                  ],
+                  "III": [
+                    {
+                      "speed": 18,
+                      "agility": 0.9,
+                      "acceleration": 0.9
+                    }
+                  ],
+                  "Dread": [
+                    {
+                      "speed": 22,
+                      "agility": 0.9,
+                      "acceleration": 0.9
+                    }
+                  ]
+                }
+              ],
+              "fuel injector": [{
+                "I":[{
+                  "acceleration": 1.25,
+                  "agility": 0.94,
+                  "speed": 0.975
+                }],
+                "II":[{
+                  "acceleration": 1.30,
+                  "agility": 0.94,
+                  "speed": 0.975
+                }],
+                "III":[{
+                  "acceleration": 1.35,
+                  "agility": 0.94,
+                  "speed": 0.975
+                }],
+                "Ancient":[{
+                  "acceleration": 1.4,
+                  "agility": 0.94,
+                  "speed": 0.975
+                }]
+              }],
+              "exhaust restrictor": [{
+                "I":[{
+                  "warp charge time": 1.1,
+                  "speed": 0.975,
+                  "signal range": -500,
+                  "agility": 0.92
+                }],
+                "II":[{
+                  "warp charge time": 1.1,
+                  "speed": 0.975,
+                  "signal range": -700,
+                  "agility": 0.92
+                }],
+                "III":[{
+                  "warp charge time": 1.1,
+                  "speed": 0.975,
+                  "signal range": -900,
+                  "agility": 0.92
+                }],
+                "Dread":[{
+                  "warp charge time": 1.1,
+                  "speed": 0.975,
+                  "signal range": -1100,
+                  "agility": 0.92
+                }]
+              }],
+              "engine gimbals": [{
+                "I":[{
+                  "agility": 1.06,
+                  "acceleration": 0.96,
+                  "speed": 0.98
+                }],
+                "II":[{
+                  "agility": 1.08,
+                  "acceleration": 0.96,
+                  "speed": 0.98
+                }],
+                "III":[{
+                  "agility": 1.1,
+                  "acceleration": 0.96,
+                  "speed": 0.98
+                }],
+                "Hybrid":[{
+                  "agility": 1.12,
+                  "acceleration": 0.96,
+                  "speed": 0.98
+                }]
+              }]
+            }
+          ],
+          "reactors": [
+            {
+              "battery": [
+                {
+                  "I": [
+                    {
+                      "energy capacity": 1.15,
+                      "energy regen": 0.97
+                    }
+                  ],
+                  "II": [
+                    {
+                      "energy capacity": 1.2,
+                      "energy regen": 0.97
+                    }
+                  ],
+                  "III": [
+                    {
+                      "energy capacity": 1.25,
+                      "energy regen": 0.97
+                    }
+                  ],
+                  "Hybrid": [
+                    {
+                      "energy capacity": 1.3,
+                      "energy regen": 0.97
+                    }
+                  ]
+                }
+              ],
+              "parallel circuits": [
+                {
+                  "I": [
+                    {
+                      "energy capacity": 0.93,
+                      "energy regen": 1.15
+                    }
+                  ],
+                  "II": [
+                    {
+                      "energy capacity": 0.93,
+                      "energy regen": 1.2
+                    }
+                  ],
+                  "III": [
+                    {
+                      "energy capacity": 0.93,
+                      "energy regen": 1.25
+                    }
+                  ],
+                  "Hybrid": [
+                    {
+                      "energy capacity": 0.93,
+                      "energy regen": 1.3
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
