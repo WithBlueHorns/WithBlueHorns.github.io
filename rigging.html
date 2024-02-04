@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Starscape Rigging</title>
+    <meta name="title" content="Starscape Rigging">
+    <meta name="description" content="Create your Starscape rigs and share them">
+    <meta name="keywords"
+        content="Starscape, counter, rigging, rig, rigs, with blue horns, blue horns, wiff, Keth, roblox">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="author" content="With Blue Horns">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://withbluehorns.github.io/rigging" />
+    <meta property="og:title" content="Starscape Rigging" />
+    <meta property="og:description" content="Create your Starscape rigs, share them, have fun" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://withbluehorns.github.io/rigging" />
+    <meta property="twitter:title" content="Starscape Rigging" />
+    <meta property="twitter:description" content="Create your Starscape rigs, share them, have fun" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="/images/favicons/favicon-310x310.png" id="favicon">
+    <script src="scripts/favicon.js"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/favicon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/favicon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/favicon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/favicon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/favicon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/favicon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/favicon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/favicon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/favicon-180x180.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicons/favicon-192x192.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicons/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicons/favicon-144x144.png">
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
+
+    <link rel="stylesheet" href="starscapeStyles.css">
+</head>
+
+<body onload="getElements()">
+    <div class="main">
+        <div id="rigging">
+            <script src="scripts/riggingManager.js"></script>
+            <div class="picker default-panel">
+                <span id="tip">Search by name/type</span>
+
+                <input id="in" type="text" placeholder="Search by name..." spellcheck="false" onkeyup="search()">
+                <div id="filter">
+                    <div class="sort" id="m" onclick="filter('modules')">
+                        <p>modules</p>
+                    </div>
+                    <div class="sort" id="t" onclick="filter('turrets')">
+                        <p>turrets</p>
+                    </div>
+                    <div class="sort" id="s" onclick="filter('ships')">
+                        <p>ships</p>
+                    </div>
+                </div>
+                <script src="scripts/pickerController.js"></script>
+                <div class="scroll" id="tile-parent">
+                    <div class="tile" id="warp field amplifier"><span class="t-name">Warp Field Amplifier</span><img
+                            class="picker-icon" src='/images/starscape/item/item/red_rig.png'><span class="typeee">rig,
+                            engine</span></div>
+                </div>
+
+
+            </div>
+            <div class="compositor default-panel">
+                <div class="header">
+                    <span id="sni">Stratos</span>
+                    <span id="sci">
+                        starter ship
+                    </span>
+                </div>
+                <div class="stripe">
+                    <div class="default-panel" id="snippet">
+                        <span id="start-inf">Here stats will appear when you hover over a module, turret or a
+                            ship.</span>
+                    </div>
+                    <div class="default-panel" id="tier-picker" style="display:none">
+                        <p class="tier" id="t1">I</p>
+                        <p class="tier" id="t2">II</p>
+                        <p class="tier" id="t3">III</p>
+                        <p class="tier" id="t4">IV</p>
+                        <p class="tier" id="th">Hybrid</p>
+                        <p class="tier" id="ta">Ancient</p>
+                        <p class="tier" id="td">Dread</p>
+                    </div>
+                    <div class="type-picker"></div>
+                </div>
+                <div class="stripe -w">
+                    <div class="w-c" id="tsp">
+                        <div class="w-tile">
+                            <span class="w-type">F</span>
+                            <div class="empty">
+                                <p>EMPTY</p>
+                                <p>SLOT</p>
+                            </div>
+                            <p class="mod-name">Disruptor IV</p>
+                            <img src="images\starscape\item\item\disruptor.png" class="mod-img">
+                        </div>
+                        <div class="w-tile">
+                            <span class="w-type">S</span>
+                            <div class="empty">
+                                <p>EMPTY</p>
+                                <p>SLOT</p>
+                            </div>
+                        </div>
+                        <div class="w-tile">
+                            <span class="w-type">M</span>
+                            <div class="empty">
+                                <p>EMPTY</p>
+                                <p>SLOT</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="stripe -v">
+                    <div class=" r-cd rig-c" id="r-parent">
+
+                        <div class="r-tile rig r-wep">
+                            <p class="rn">WEP-1</p>
+                            <p class="mod-name">Disruptor IV</p>
+                            <img src="images\starscape\item\item\disruptor.png" class="mod-img">
+                        </div>
+                        <div class="r-tile rig r-def">
+                            <p class="rn">DEF-1</p>
+
+                        </div>
+                        <div class="r-tile rig r-eng">
+                            <p class="rn">ENG-1</p>
+
+                        </div>
+                        <div class="r-tile rig r-rct">
+                            <p class="rn">RCT-1</p>
+
+                        </div>
+                        <div class="r-tile rig r-rct">
+                            <p class="rn">RCT-2</p>
+
+                        </div>
+                        <span class="r-type" id="r-label">rigs</span>
+                    </div>
+                    <div class=" r-cd subsystem-c" id="s-parent">
+                        <span class="r-type">subsystems</span>
+                        <div class="r-tile subsystem">
+                            <p class="rn">1</p>
+                            <p class="mod-name">Disruptor IV</p>
+                            <img src="images\starscape\item\item\disruptor.png" class="mod-img">
+                        </div>
+                        <div class="r-tile subsystem">
+                            <p class="rn">2</p>
+                            <p class="mod-name">Energy Booster</p>
+
+                        </div>
+                        <div class="r-tile subsystem">
+                            <p class="rn">3</p>
+                            <p class="mod-name">Dread Hull Booster</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <span id="cas">choose a ship</span>
+                <img id="ship-preview" src='/images/starscape/item/item/red_rig.png'>
+            </div>
+            <div class="info default-panel">
+                <div class="inf-wep inf-c">
+                    <p> <span id="f4">Weapons</span>
+                        <select name="damage type" id="dmg-type" onchange="changeType()">
+                            <option value="dps">dps</option>
+                            <option value="alpha">alpha</option>
+                            <option value="mining">mining</option>
+                        </select>
+                    </p>
+
+                    <div class="line"></div>
+                    <div class="hidden" id="mining" style="display: none;">
+                        <div class="hc">
+                            <div class="cn"><span id="ore-release">90.0</span></div>
+                            <span class="s-i">RELEASE</span>
+                        </div>
+                        <div class="hc">
+                            <div class="cn"><span id="ore-capture">45.0</span></div>
+                            <span class="s-i">CAPTURE</span>
+                        </div>
+                    </div>
+                    <div class="wep-dmg hidden" id="dps">
+                        <div class="dmg"><span id="dps-val">10</span></div>
+                        <div class="kin-lsr">
+                            <div class="kl-c">
+                                <span id="kin-val">100%</span>
+                                <span class="turret-type">kin</span>
+                            </div>
+                            <div class="kl-c">
+                                <span id="lsr-val">100%</span>
+                                <span class="turret-type">lsr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wep-dmg hidden" id="alpha" style="display: none;">
+                        <div class="dmg"><span id="alpha-val">200</span></div>
+                        <div class="kin-lsr">
+                            <div class="kl-c">
+                                <span id="kin-val2">100%</span>
+                                <span class="turret-type">kin</span>
+                            </div>
+                            <div class="kl-c">
+                                <span id="lsr-val2">100%</span>
+                                <span class="turret-type">lsr</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="inf-def inf-c">
+                    <p> <span id="f4">Defense</span> <span id="total-hp">21000 HP</span> </p>
+                    <div class="line"></div>
+                    <div class="inf-s">
+                        <div class="ex">
+                            <span id="shield-points">50</span>
+                            <div id="c3"><span id="shield-regen">2.0</span><span style="color:m">/s</span></div>
+                        </div><img src="images/starscape/icons/subsystem2.png" class="ic2">
+                    </div>
+                    <div class="inf-s">
+                        <div class="ex">
+                            <span id="hull-points">260</span>
+                            <div id="c3"><span id="hull-regen">0.0</span><span style="color:m">/s</span></div>
+                        </div><img src="images/starscape/icons/subsystem2.png" class="ic2" id="hulltype">
+                    </div>
+                    <div class="def-arm">
+                        <div class="hc">
+                            <div class="cn"><span id="deflector">0.5</span></div>
+                            <span class="s-i">DEFLECTOR</span>
+                        </div>
+                        <div class="hc">
+                            <div class="cn"><span id="armor">0</span></div>
+                            <span class="s-i">ARMOR</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="inf-eng inf-c">
+                    <p> Energy </p>
+                    <div class="line"></div>
+                    <div class="inf-s" id="f2">
+                        <img src="images/starscape/icons/energy.png" class="icons">
+                        <div id="power-bar">
+                            <div class="pb"></div>
+                            <div class="pb"></div>
+                            <div class="pb"></div>
+                            <div class="pb"></div>
+                            <div class="pb"></div>
+                            <div class="pb"></div>
+                            <div class="pb"></div>
+                            <div class="pb"></div>
+                            <div class="pb"></div>
+                            <div class="pb"></div>
+                            <div class="pb"></div>
+                            <div class="pb"></div>
+                            <div class="pb"></div>
+                            <div class="pb"></div>
+                            <div class="pb"></div>
+                            <div class="pb"></div>
+                            <div class="sblock2">
+                                <div class="c"><span id="total-eng">100 </span><span style="color:m">MJ</span></div>
+                                <div class="c " id="f3"><span id="regen-eng">+1.5</span><span style="color:m">/s</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="inf-nav inf-c">
+                    <p> Navigation </p>
+                    <div class="line"></div>
+                    <div class="inf-s ">
+                        <div class="sblock hs" id="f5">
+                            <div class="c"><span id="speed">282.0 </span> <span style="color:m">m/s</span></div>
+                            <div class="c"><span id="acceleration">190</span> <span style="color:m" id="f1">m/s²</span>
+                            </div>
+                        </div>
+                        <div class="sblock hs">
+                            <div class="c to-the-fucking-right"><span id="turn">OFF</span><span id="deg">°/s</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="inf-s">
+                        <div class="sblock hs">
+                            <p class="c to-the-fucking-right" id="f6"><span id="warp-speed">1.40
+                                </span><span>AU/s</span></p>
+                        </div>
+                        <div class="sblock hs">
+                            <div id="warpwarp">
+                                <div class="bar bd"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                            </div>
+                            <p class="c to-the-fucking-right"><span id="warp-charge">5.0 </span><span>s</span></p>
+                        </div>
+
+                    </div>
+                    <div class="inf-s">
+                        <span class="s-name">SENSORS</span><span class="s-var " id="sensor">25.0 </span><span
+                            class="s-unit"> MW</span>
+                    </div>
+                    <div class="inf-s">
+                        <span class="s-name">SIGNAL</span><span class="s-var" id="signal">5,000 </span><span
+                            class="s-unit"> m</span>
+                    </div>
+                </div>
+                <div class="line"></div>
+
+                <button class="button-46" role="button" onclick="generateUrl()">Share the rig!</button>
+
+
+            </div>
+        </div>
+        <div id="info-panel">
+            <p>On the left, you can search for modules, turrets, and ships to choose and place in your rig.</p>
+            <p>On the right, you can view the statistics of your rig, which change as you add components.</p>
+            <p>In the middle, there's your ship with modules and turrets that you can modify.</p>
+            <p>Create your Starscape rigs, share them, and have fun!</p>
+
+        </div>
+        <div id="copy">
+            <span id="ur">Shareable link: </span><span id="link">Not generated</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
