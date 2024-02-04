@@ -1170,15 +1170,15 @@ p.tier {
   box-shadow: rgba(225, 0, 255, 0.2) 0px 0px 1px;
 }
 #th {
-  background-image: url(images/starscape/item/background/hybrid.png);
+  background-image: url(images/starscape/item/background/Hybrid.png);
   box-shadow: rgba(255, 0, 0, 0.2) 0px 0px 1px;
 }
 #ta {
-  background-image: url(images/starscape/item/background/ancient.png);
+  background-image: url(images/starscape/item/background/Ancient.png);
   box-shadow: rgba(255, 153, 0, 0.2) 0px 0px 1px;
 }
 #td {
-  background-image: url(images/starscape/item/background/dread.png);
+  background-image: url(images/starscape/item/background/Dread.png);
   box-shadow: rgba(255, 81, 0, 0.2) 0px 0px 1px;
 }
 #t1:hover {
