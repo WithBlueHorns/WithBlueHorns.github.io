@@ -1,0 +1,190 @@
+:root {
+  --bbColor: 255, 153, 51;
+  --blur: 10px;
+}
+
+body {
+  background-image: url("images/starscape/6.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+  body {
+    background-position: -200px 0px;
+  }
+}
+
+@font-face {
+  font-family: "Oxanium";
+  src: url(fonts/Oxanium/OxaniumRegular.ttf) format(truetype);
+  font-weight: normal;
+}
+
+.bb-container {
+  height: 15vw;
+  width: 30vw;
+  display: grid;
+  position: fixed;
+  top: 20vh;
+  right: 10vw;
+
+  transform: perspective(1000px) rotateX(-7deg) rotateY(-23deg) rotateZ(-2deg);
+  grid-template-columns: 1fr 20fr 1fr;
+}
+@media screen and (max-width: 500px) {
+  .bb-container {
+    height: 22.5vw;
+    width: 45vw;
+  
+  right: 5vw;
+  }
+}
+.stripes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600%;
+  filter: grayscale(50%) brightness(150%);
+
+  background-image: linear-gradient(
+    transparent 90%,
+    rgba(var(--bbColor), 0.1) 95%,
+    transparent 95.3%
+  );
+  animation: holograph 6s linear infinite;
+  transform-origin: top;
+}
+
+/* Rest of the CSS code remains the same */
+
+/* Rest of the CSS code remains the same */
+
+.middle-container {
+  background-color: rgba(var(--bbColor), 0.35);
+  height: 90%;
+  position: relative;
+  top: 5%;
+  filter: saturate(105%);
+
+  box-shadow: 0 0 11px rgba(var(--bbColor), 0.4);
+  z-index: 2; /* Update the z-index to 2 */
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.sides {
+  background: #616161;
+  background: linear-gradient(
+    100deg,
+    rgb(126, 100, 78) 0%,
+    hsl(23, 9%, 30%) 50%,
+    hsl(16, 7%, 17%) 100%
+  );
+  height: 100%;
+  position: relative;
+  z-index: 3;
+  transform-style: preserve-3d;
+  transform: perspective(1000px) rotateY(-15deg) translateZ(-20px)
+    translateX(-6px); /* Update the translateX value as desired */
+}
+
+.sides:before,
+.sides:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2vh;
+  background-color: #616161;
+  background: linear-gradient(283deg, #14110f 0%, hsl(16, 7%, 17%) 100%);
+
+  transform-style: preserve-3d;
+  z-index: 1; /* Update the z-index to 1 */
+}
+
+.sides:before {
+  left: -2vh;
+  transform-origin: right;
+  transform: rotateY(-89deg);
+}
+
+.sides:after {
+  right: -2vh;
+  transform-origin: left;
+  transform: rotateY(89deg);
+}
+
+.bb-text {
+  text-shadow: 0px 0px 8px rgba(var(--bbColor), 0.45);
+
+  display: flex;
+  filter: grayscale(80%) brightness(175%);
+  color: rgba(var(--bbColor), 0.45);
+  justify-content: center;
+  margin: 3% 0 2%;
+  font: 1em "OxaniumMedium", Oxanium, sans-serif;
+}
+
+h1.bb-text {
+  font-size: 2.8vw;
+}
+span.bb-text {
+  font-size: 3.75vw;
+}
+@media screen and (max-width: 500px) {
+  h1.bb-text {
+    font-size: 4.4vw;
+  }
+  span.bb-text {
+    font-size: 5.5vw;
+  }
+}
+
+#particles canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+
+
+.stripes:nth-child(1) {
+  animation-delay: -5s; /* Delay the animation for the second stripe */
+}
+.stripes:nth-child(2) {
+  animation-delay: -4s; /* Delay the animation for the second stripe */
+}
+
+.stripes:nth-child(3) {
+  animation-delay: -3s; /* Delay the animation for the third stripe */
+}
+.stripes:nth-child(4) {
+  animation-delay: -2s; /* Delay the animation for the second stripe */
+}
+
+.stripes:nth-child(5) {
+  animation-delay: -1s; /* Delay the animation for the third stripe */
+}
+.stripes:nth-child(6) {
+  animation-delay: 0s; /* Delay the animation for the third stripe */
+}
+@keyframes holograph {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(-70%);
+  }
+}
