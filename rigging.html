@@ -50,13 +50,14 @@
 </head>
 
 <body onload="getElements()">
+
     <div class="main">
+
         <div id="rigging">
             <script src="scripts/riggingManager.js"></script>
             <div class="picker default-panel">
-                <span id="tip">Search by name/type</span>
 
-                <input id="in" type="text" placeholder="Search by name..." spellcheck="false" onkeyup="search()">
+                <input id="in" type="text" placeholder="Search by name/type..." spellcheck="false" onkeyup="search()">
                 <div id="filter">
                     <div class="sort" id="m" onclick="filter('modules')">
                         <p>modules</p>
@@ -84,6 +85,12 @@
                 </div>
                 <div class="stripe">
                     <div class="default-panel" id="snippet">
+                        <div id="name-inf">
+                            <div id="t-n-cont">
+                                <span>heavy hull repairer</span>
+                            </div>
+                            <div id="size-inf">M</div> 
+                        </div>
                         <span id="start-inf">Here stats will appear when you hover over a module, turret or a
                             ship.</span>
                     </div>
@@ -106,8 +113,7 @@
                                 <p>EMPTY</p>
                                 <p>SLOT</p>
                             </div>
-                            <p class="mod-name">Disruptor IV</p>
-                            <img src="images\starscape\item\item\disruptor.png" class="mod-img">
+
                         </div>
                         <div class="w-tile">
                             <span class="w-type">S</span>
@@ -121,6 +127,16 @@
                             <div class="empty">
                                 <p>EMPTY</p>
                                 <p>SLOT</p>
+                            </div>
+                            <div class="mini-snippet">
+                                <div id="name-inf">
+                                    <div id="t-n-cont">
+                                      <span>Name</span>
+                                    </div>
+                                    <div id="size-inf">S</div>
+                                  </div>
+                                <div class="pointy"></div>
+                                
                             </div>
                         </div>
 
@@ -145,6 +161,16 @@
                         </div>
                         <div class="r-tile rig r-rct">
                             <p class="rn">RCT-1</p>
+                            <div class="mini-snippet">
+                                <div id="name-inf">
+                                    <div id="t-n-cont">
+                                      <span>Name</span>
+                                    </div>
+                                    <div id="size-inf">S</div>
+                                  </div>
+                                <div class="pointy"></div>
+                                
+                            </div>
 
                         </div>
                         <div class="r-tile rig r-rct">
@@ -175,7 +201,7 @@
 
                 </div>
                 <span id="cas">choose a ship</span>
-                <img id="ship-preview" src='/images/starscape/item/item/red_rig.png'>
+                <img id="ship-preview" src='/images/icons/thinair.png'>
             </div>
             <div class="info default-panel">
                 <div class="inf-wep inf-c">
@@ -340,6 +366,13 @@
             <span id="ur">Shareable link: </span><span id="link">Not generated</span>
         </div>
     </div>
+   
+    <div id="mobile-note">
+        <h1>Rotate your phone</h1>
+        <div id="rot-img"></div>
+
+        <span> for the best experience</span>
+      </div>
 
 </body>
 

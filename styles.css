@@ -445,3 +445,81 @@ a:active {
   color: rgb(160, 209, 255);
 
 }
+
+
+@media screen and (orientation: portrait) {
+  #mobile-note {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #ff3333;
+    z-index: 200;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    color: white !important;
+  }
+
+  #mobile-note h1 {
+    font: 8vw "OxaniumMedium", Oxanium, sans-serif !important;
+    margin: 0;
+  }
+  #mobile-note span {
+    font: 5vw "OxaniumMedium", Oxanium, sans-serif !important;
+    color: white !important;
+  }
+  #rot-img {
+    background-image: url("/images/icons/landscape.png");
+    background-size: cover;
+    width: 50vw;
+    aspect-ratio: 1;
+  }
+}
+
+#construction {
+  position: absolute;
+  background-color: #ff3333;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/Construction.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  z-index: 2000;
+}
+
+#checker {
+  background-image: url("/images/checkerPattern.png");
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+}
+
+#c1 {
+  font: 5vw "OxaniumLight", Oxanium, sans-serif;
+
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+  margin-left: 10px;
+  text-shadow: 0px 5px 4px rgb(0, 0, 0, 1);
+}
+
+#c2 {
+  font: 2vw "OxaniumLight", Oxanium, sans-serif;
+
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+  margin-left: 10px;
+  text-shadow: 0px 3px 4px rgb(0, 0, 0, 1);
+}
