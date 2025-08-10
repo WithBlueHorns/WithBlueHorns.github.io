@@ -37,12 +37,10 @@ body {
 
 input {
   background-color: #0a0a0a;
-  border: 1.5px solid rgb(133, 133, 133);
+  border: none;
   color: rgb(173, 173, 173);
-  width: 90%;
+  width: 100%;
   box-sizing: border-box;
-  margin-left: 5%;
-  margin-bottom: 3px;
 }
 
 select {
@@ -119,12 +117,13 @@ select:focus {
 .scroll {
   margin-top: 2px;
   width: 100%;
-  height: 75vh;
-  max-height: 75vh;
+  height: 79vh;
+  max-height: 79vh;
   height: fit-content;
   display: flex;
   flex-wrap: wrap;
   overflow: auto;
+  scrollbar-width: none;
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -192,7 +191,6 @@ select:focus {
   height: 90%;
   width: 90%;
   position: absolute;
-  user-drag: none;
   -webkit-user-drag: none;
   user-select: none;
   -moz-user-select: none;
@@ -236,7 +234,6 @@ select:focus {
   );
 
   z-index: 1c;
-  overflow: hidden;
 }
 
 #ship-preview {
@@ -246,8 +243,16 @@ select:focus {
   position: absolute;
   animation: shipAnim 2s ease-in-out infinite;
   filter: drop-shadow(0 0 1vw rgba(78, 89, 255, 0.05));
-  z-index: 1  ;
-  
+  user-select: none;
+  user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    pointer-events: none;
+
+  z-index: 1;
 }
 
 @keyframes shipAnim {
@@ -256,8 +261,8 @@ select:focus {
   }
 
   50% {
-    transform: translateX(0.15%) rotateZ(-.1deg) translateY(-0.15%)
-      rotateX(.1deg);
+    transform: translateX(0.15%) rotateZ(-0.1deg) translateY(-0.15%)
+      rotateX(0.1deg);
   }
 
   100% {
@@ -332,9 +337,66 @@ select:focus {
   background-color: #2d2d2d;
   box-shadow: 0px 0px 0.5vw 0px rgba(173, 173, 173, 0.1);
   transition: all 0.1s ease-in-out;
-  overflow: hidden;
   position: relative;
   z-index: 3;
+
+}
+
+.mini-snippet {
+  position: absolute;
+  min-width: 5.5vw;
+  min-height: 1.5vw;
+  background-color: #0d0d0d;
+  border: 1px solid hsl(0, 0%, 15%);
+  bottom: 5vw;
+  width: fit-content;
+  height: fit-content;
+  padding: 0 0.4vw 0.3vw 0.4vw;
+
+left: 50%;
+  transform: translateX(-50%);
+  transition: all 1s;
+}
+
+.pointy {
+  background-color: #0d0d0d;
+  border-bottom: 1px solid hsl(0, 0%, 15%);
+  border-right: 1px solid hsl(0, 0%, 15%);
+  width: 1vw;
+  aspect-ratio: 1;
+  position: absolute;
+  bottom: -.6vw;
+  left: 0;
+  right: 0;
+  margin: auto;
+  rotate: 45deg;
+  z-index: -1;
+}
+
+.nam-hybrid {
+  color: hsl(0, 50%, 48%);
+}
+.nam-ancient {
+  color: hsl(32, 50%, 58%);
+}
+
+.nam-dread {
+  color: hsl(32, 70%, 38%);
+}
+.nam-v {
+  color: hsl(64, 50%, 63%);
+}
+.nam-iv {
+  color: hsl(253, 50%, 63%);
+}
+.nam-iii {
+  color: hsl(209, 50%, 63%);
+}
+.nam-ii {
+  color: hsl(110, 50%, 63%);
+}
+.nam-i {
+  color: #a0a0a0;
 }
 
 .r-tile:hover {
@@ -1012,7 +1074,6 @@ select:focus {
   background-size: cover;
   transition: all 0.1s ease-in-out;
   z-index: 3;
-
 }
 
 .w-tile:hover {
@@ -1109,13 +1170,60 @@ select:focus {
   min-height: 1.5vw;
   width: fit-content;
   height: fit-content;
-  position: relative;
-  left: -1.8vw;
+  left: -1.2vw;
   margin-top: 1.6vw;
-  padding: 0.65vw 0.6vw 0.55vw 0.6vw;
+  padding: 0 0.4vw 0.3vw 0.4vw;
   transition: all 1s;
+  background-color: #0d0d0d;
+  border: 1px solid hsl(0, 0%, 15%);
+  position: relative;
+}
+
+
+
+#name-inf {
+  margin: 0 -0.4vw 0.3vw -0.4vw;
+  height: 1.2vw;
+  display: flex;
+  background-color: #1b1b1b;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(0, 0%, 17%);
+  transition: all 1s;
+}
+#t-n-cont {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  
+}
+
+#t-n-cont span {
+  margin: .2vw .2vw 0 .2vw;
+
+  font: 0.8vw "OxaniumMedium", Oxanium, sans-serif;
+  transition: all .5s;
+  white-space: nowrap ;
 
 }
+
+
+
+#size-inf {
+  background-color: #3c3c3c;
+  height: 94%;
+  aspect-ratio: 1;
+  float: right;
+  border: 1px solid hsl(0, 0%, 26%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 1vw "OxaniumMedium", Oxanium, sans-serif;
+  color: white;
+  line-height: 100%;
+}
+
+
+
 #start-inf {
   display: flex;
   justify-content: center;
@@ -1151,11 +1259,12 @@ p.mod-name {
 #tier-picker {
   padding: 0.3vw;
   position: relative;
-  left: -1.8vw;
+  left: -1.2vw;
   margin-top: 1.6vw;
   min-width: 4.25vw;
-  background-color: #272727;
-  transition: all 1s;
+  background-color: rgb(13, 13, 13);
+  
+  border: 1px solid hsl(0, 0%, 15%);  transition: all 1s;
 }
 .tier {
   text-align: center;
@@ -1276,4 +1385,49 @@ p.tier {
 
 #ur {
   user-select: none;
+}
+
+@media screen and (orientation: portrait) {
+  #mobile-note {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #ff3333;
+    z-index: 200;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    color: white !important;
+  }
+
+  #mobile-note h1 {
+    font: 8vw "OxaniumMedium", Oxanium, sans-serif !important;
+    margin: 0;
+  }
+  #mobile-note span {
+    font: 5vw "OxaniumMedium", Oxanium, sans-serif !important;
+    color: white !important;
+  }
+  #rot-img {
+    background-image: url("/images/icons/landscape.png");
+    background-size: cover;
+    width: 50vw;
+    aspect-ratio: 1;
+  }
+}
+
+@media not screen and (orientation: portrait) {
+  #mobile-note h1 {
+    display: none;
+  }
+  #mobile-note span {
+    display: none;
+  }
+  #rot-img {
+    display: none;
+  }
 }
