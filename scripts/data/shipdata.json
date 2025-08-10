@@ -19,9 +19,18 @@
               "warp charge time": 3.0,
               "sensor strenght": 20,
               "signal range": 4000,
-              "turret slots": [2, 0, 0],
+              "turret slots": [
+                2,
+                0,
+                0
+              ],
               "subsystems": 1,
-              "rig slots": [0, 1, 1, 1],
+              "rig slots": [
+                0,
+                1,
+                1,
+                1
+              ],
               "deflector": 0,
               "armor": 0
             }
@@ -46,9 +55,18 @@
               "warp charge time": 4,
               "sensor strenght": 25,
               "signal range": 4750,
-              "turret slots": [3, 0, 0],
+              "turret slots": [
+                3,
+                0,
+                0
+              ],
               "subsystems": 1,
-              "rig slots": [1, 1, 0, 1],
+              "rig slots": [
+                1,
+                1,
+                0,
+                1
+              ],
               "deflector": 0.5,
               "armor": 0.5
             }
@@ -69,9 +87,18 @@
               "warp charge time": 4,
               "sensor strenght": 25,
               "signal range": 5000,
-              "turret slots": [4, 0, 0],
+              "turret slots": [
+                4,
+                0,
+                0
+              ],
               "subsystems": 2,
-              "rig slots": [2, 2, 0, 0],
+              "rig slots": [
+                2,
+                2,
+                0,
+                0
+              ],
               "deflector": 0,
               "armor": 1
             }
@@ -92,9 +119,18 @@
               "warp charge time": 4,
               "sensor strenght": 25,
               "signal range": 4250,
-              "turret slots": [3, 0, 0],
+              "turret slots": [
+                3,
+                0,
+                0
+              ],
               "subsystems": 3,
-              "rig slots": [1, 1, 1, 2],
+              "rig slots": [
+                1,
+                1,
+                1,
+                2
+              ],
               "deflector": 1,
               "armor": 0
             }
@@ -115,9 +151,18 @@
               "warp charge time": 4,
               "sensor strenght": 25,
               "signal range": 5000,
-              "turret slots": [4, 0, 0],
+              "turret slots": [
+                4,
+                0,
+                0
+              ],
               "subsystems": 2,
-              "rig slots": [2, 2, 1, 0],
+              "rig slots": [
+                2,
+                2,
+                1,
+                0
+              ],
               "deflector": 0,
               "armor": 0.2
             }
@@ -138,9 +183,18 @@
               "warp charge time": 4,
               "sensor strenght": 25,
               "signal range": 4750,
-              "turret slots": [3, 0, 0],
+              "turret slots": [
+                3,
+                0,
+                0
+              ],
               "subsystems": 2,
-              "rig slots": [1, 2, 1, 1],
+              "rig slots": [
+                1,
+                2,
+                1,
+                1
+              ],
               "deflector": 1.5,
               "armor": 0.5
             }
@@ -161,9 +215,18 @@
               "warp charge time": 4,
               "sensor strenght": 25,
               "signal range": 4500,
-              "turret slots": [2, 0, 0],
+              "turret slots": [
+                2,
+                0,
+                0
+              ],
               "subsystems": 2,
-              "rig slots": [0, 2, 1, 1],
+              "rig slots": [
+                0,
+                2,
+                1,
+                1
+              ],
               "deflector": 1.5,
               "armor": 0
             }
@@ -184,9 +247,18 @@
               "warp charge time": 4,
               "sensor strenght": 25,
               "signal range": 4750,
-              "turret slots": [3, 0, 0],
+              "turret slots": [
+                3,
+                0,
+                0
+              ],
               "subsystems": 2,
-              "rig slots": [1, 2, 0, 1],
+              "rig slots": [
+                1,
+                2,
+                0,
+                1
+              ],
               "deflector": 0.5,
               "armor": 0.5
             }
@@ -207,9 +279,18 @@
               "warp charge time": 4,
               "sensor strenght": 25,
               "signal range": 4500,
-              "turret slots": [2, 0, 0],
+              "turret slots": [
+                2,
+                0,
+                0
+              ],
               "subsystems": 1,
-              "rig slots": [0, 2, 1, 0],
+              "rig slots": [
+                0,
+                2,
+                1,
+                0
+              ],
               "deflector": 1,
               "armor": 0
             }
@@ -230,9 +311,18 @@
               "warp charge time": 4,
               "sensor strenght": 25,
               "signal range": 4500,
-              "turret slots": [2, 0, 0],
+              "turret slots": [
+                2,
+                0,
+                0
+              ],
               "subsystems": 1,
-              "rig slots": [2, 0, 1, 0],
+              "rig slots": [
+                2,
+                0,
+                1,
+                0
+              ],
               "deflector": 0,
               "armor": 0.5
             }
@@ -253,9 +343,18 @@
               "warp charge time": 4,
               "sensor strenght": 25,
               "signal range": 5000,
-              "turret slots": [4, 0, 0],
+              "turret slots": [
+                4,
+                0,
+                0
+              ],
               "subsystems": 2,
-              "rig slots": [2, 1, 0, 0],
+              "rig slots": [
+                2,
+                1,
+                0,
+                0
+              ],
               "deflector": 0,
               "armor": 1
             }
@@ -276,9 +375,18 @@
               "warp charge time": 4,
               "sensor strenght": 25,
               "signal range": 4500,
-              "turret slots": [4, 0, 0],
+              "turret slots": [
+                4,
+                0,
+                0
+              ],
               "subsystems": 2,
-              "rig slots": [2, 0, 2, 0],
+              "rig slots": [
+                2,
+                0,
+                2,
+                0
+              ],
               "deflector": 0,
               "armor": 0.5
             }
@@ -299,9 +407,18 @@
               "warp charge time": 4,
               "sensor strenght": 25,
               "signal range": 4500,
-              "turret slots": [4, 0, 0],
+              "turret slots": [
+                4,
+                0,
+                0
+              ],
               "subsystems": 2,
-              "rig slots": [2, 0, 2, 0],
+              "rig slots": [
+                2,
+                0,
+                2,
+                0
+              ],
               "deflector": 0,
               "armor": 0.5
             }
@@ -326,9 +443,18 @@
               "warp charge time": 3,
               "sensor strenght": 25,
               "signal range": 4000,
-              "turret slots": [2, 0, 0],
+              "turret slots": [
+                2,
+                0,
+                0
+              ],
               "subsystems": 2,
-              "rig slots": [1, 1, 2, 1],
+              "rig slots": [
+                1,
+                1,
+                2,
+                1
+              ],
               "deflector": 1,
               "armor": 0
             }
@@ -349,9 +475,18 @@
               "warp charge time": 3,
               "sensor strenght": 25,
               "signal range": 4250,
-              "turret slots": [2, 0, 0],
+              "turret slots": [
+                2,
+                0,
+                0
+              ],
               "subsystems": 2,
-              "rig slots": [1, 2, 1, 1],
+              "rig slots": [
+                1,
+                2,
+                1,
+                1
+              ],
               "deflector": 0,
               "armor": 0
             }
@@ -371,14 +506,23 @@
               "energy regen": 1.5,
               "speed": 350,
               "acceleration": 190,
-              "agility": 90,
+              "agility": 67,
               "warp speed": 1.4,
               "warp charge time": 5,
               "sensor strenght": 25,
               "signal range": 5000,
-              "turret slots": [1, 0, 0],
+              "turret slots": [
+                1,
+                0,
+                0
+              ],
               "subsystems": 1,
-              "rig slots": [0, 1, 1, 1],
+              "rig slots": [
+                0,
+                1,
+                1,
+                1
+              ],
               "deflector": 0,
               "armor": 0.5
             }
@@ -392,18 +536,27 @@
               "hull regen": 0,
               "energy capacity": 120,
               "energy regen": 1.5,
-              "speed": 490,
-              "acceleration": 270,
-              "agility": 190,
-              "warp speed": 1.6,
+              "speed": 370,
+              "acceleration": 210,
+              "agility": 67,
+              "warp speed": 1.3,
               "warp charge time": 3,
-              "sensor strenght": 25,
-              "signal range": 4000,
-              "turret slots": [2, 0, 0],
+              "sensor strenght": 30,
+              "signal range": 5000,
+              "turret slots": [
+                1,
+                0,
+                0
+              ],
               "subsystems": 2,
-              "rig slots": [1, 1, 2, 1],
-              "deflector": 1,
-              "armor": 0
+              "rig slots": [
+                2,
+                1,
+                0,
+                0
+              ],
+              "deflector": 0,
+              "armor": 1
             }
           ],
           "marlin": [
@@ -422,9 +575,18 @@
               "warp charge time": 3,
               "sensor strenght": 25,
               "signal range": 4000,
-              "turret slots": [1, 0, 0],
+              "turret slots": [
+                1,
+                0,
+                0
+              ],
               "subsystems": 1,
-              "rig slots": [0, 0, 2, 1],
+              "rig slots": [
+                0,
+                0,
+                2,
+                1
+              ],
               "deflector": 0.5,
               "armor": 0
             }
@@ -438,16 +600,25 @@
               "hull regen": 0,
               "energy capacity": 90,
               "energy regen": 1.7,
-              "speed": 440,
+              "speed": 430,
               "acceleration": 225,
-              "agility": 180,
+              "agility": 135,
               "warp speed": 1.7,
               "warp charge time": 3,
               "sensor strenght": 25,
               "signal range": 3750,
-              "turret slots": [1, 0, 0],
+              "turret slots": [
+                1,
+                0,
+                0
+              ],
               "subsystems": 2,
-              "rig slots": [0, 1, 2, 1],
+              "rig slots": [
+                0,
+                1,
+                2,
+                1
+              ],
               "deflector": 1,
               "armor": 0
             }
@@ -463,15 +634,24 @@
               "energy regen": 1.4,
               "speed": 330,
               "acceleration": 220,
-              "agility": 200,
+              "agility": 135,
               "warp speed": 0.8,
               "warp charge time": 4,
               "sensor strenght": 25,
               "signal range": 5000,
-              "turret slots": [1, 0, 0],
+              "turret slots": [
+                1,
+                0,
+                0
+              ],
               "subsystems": 2,
-              "rig slots": [1, 0, 2, 1],
-              "deflector": 1,
+              "rig slots": [
+                1,
+                0,
+                2,
+                2
+              ],
+              "deflector": 0,
               "armor": 0,
               "cargo capacity": 2
             }
@@ -496,9 +676,18 @@
               "warp charge time": 4.5,
               "sensor strenght": 35,
               "signal range": 6500,
-              "turret slots": [0, 4, 0],
+              "turret slots": [
+                0,
+                4,
+                0
+              ],
               "subsystems": 1,
-              "rig slots": [0, 0, 2, 1],
+              "rig slots": [
+                0,
+                0,
+                2,
+                1
+              ],
               "deflector": 1.5,
               "armor": 1
             }
@@ -519,9 +708,18 @@
               "warp charge time": 5,
               "sensor strenght": 35,
               "signal range": 6500,
-              "turret slots": [0, 4, 0],
+              "turret slots": [
+                0,
+                4,
+                0
+              ],
               "subsystems": 1,
-              "rig slots": [1, 2, 0, 1],
+              "rig slots": [
+                1,
+                2,
+                0,
+                1
+              ],
               "deflector": 1.5,
               "armor": 1.5
             }
@@ -542,9 +740,18 @@
               "warp charge time": 5.5,
               "sensor strenght": 35,
               "signal range": 6500,
-              "turret slots": [0, 4, 0],
+              "turret slots": [
+                0,
+                4,
+                0
+              ],
               "subsystems": 1,
-              "rig slots": [2, 2, 1, 0],
+              "rig slots": [
+                2,
+                2,
+                1,
+                0
+              ],
               "deflector": 1.2,
               "armor": 2.0,
               "turret damage": 1.1
@@ -566,9 +773,18 @@
               "warp charge time": 3.5,
               "sensor strenght": 35,
               "signal range": 6500,
-              "turret slots": [0, 4, 0],
+              "turret slots": [
+                0,
+                4,
+                0
+              ],
               "subsystems": 1,
-              "rig slots": [1, 0, 1, 1],
+              "rig slots": [
+                1,
+                0,
+                1,
+                1
+              ],
               "deflector": 0.5,
               "armor": 1.5
             }
@@ -589,9 +805,18 @@
               "warp charge time": 5.0,
               "sensor strenght": 35,
               "signal range": 6500,
-              "turret slots": [0, 4, 0],
+              "turret slots": [
+                0,
+                4,
+                0
+              ],
               "subsystems": 1,
-              "rig slots": [1, 2, 1, 0],
+              "rig slots": [
+                1,
+                2,
+                1,
+                0
+              ],
               "deflector": 1.0,
               "armor": 2.5
             }
@@ -612,9 +837,18 @@
               "warp charge time": 4.0,
               "sensor strenght": 35,
               "signal range": 6500,
-              "turret slots": [0, 4, 0],
+              "turret slots": [
+                0,
+                4,
+                0
+              ],
               "subsystems": 2,
-              "rig slots": [1, 0, 1, 1],
+              "rig slots": [
+                1,
+                0,
+                1,
+                1
+              ],
               "deflector": 2,
               "armor": 1.5
             }
@@ -635,12 +869,156 @@
               "warp charge time": 5.0,
               "sensor strenght": 35,
               "signal range": 6500,
-              "turret slots": [0, 3, 0],
+              "turret slots": [
+                0,
+                3,
+                0
+              ],
               "subsystems": 1,
-              "rig slots": [0, 1, 1, 1],
+              "rig slots": [
+                0,
+                1,
+                1,
+                1
+              ],
               "deflector": 1,
               "armor": 2.0,
               "mining rate": 2,
+              "tractor speed": 1.5
+            }
+          ],
+          "specter": [
+            {
+              "ship class": "Medium",
+              "shield points": 1700,
+              "shield regen": 6,
+              "hull points": 1500,
+              "hull regen": 0,
+              "energy capacity": 320,
+              "energy regen": 7.0,
+              "speed": 200,
+              "acceleration": 60,
+              "agility": 56,
+              "warp speed": 0.85,
+              "warp charge time": 3.5,
+              "sensor strenght": 35,
+              "signal range": 3500,
+              "turret slots": [
+                0,
+                3,
+                0
+              ],
+              "subsystems": 1,
+              "rig slots": [
+                0,
+                1,
+                1,
+                1
+              ],
+              "deflector": 1,
+              "armor": 1.0,
+              "mining rate": 1.75,
+              "tractor speed": 1.5,
+              "max combat turrets": 2
+            }
+          ],
+          "veil": [
+            {
+              "ship class": "Medium",
+              "shield points": 1350,
+              "shield regen": 6,
+              "hull points": 1500,
+              "hull regen": 0,
+              "energy capacity": 400,
+              "energy regen": 6.0,
+              "speed": 210,
+              "acceleration": 40,
+              "agility": 56,
+              "warp speed": 0.85,
+              "warp charge time": 3.5,
+              "sensor strenght": 35,
+              "signal range": 3750,
+              "turret slots": [
+                0,
+                2,
+                0
+              ],
+              "subsystems": 1,
+              "rig slots": [
+                0,
+                1,
+                1,
+                1
+              ],
+              "deflector": 1,
+              "armor": 1.0
+            }
+          ],
+          "astero": [
+            {
+              "ship class": "Medium",
+              "shield points": 850,
+              "shield regen": 2,
+              "hull points": 3300,
+              "hull regen": 0,
+              "energy capacity": 350,
+              "energy regen": 4.5,
+              "speed": 160,
+              "acceleration": 32,
+              "agility": 41,
+              "warp speed": 0.65,
+              "warp charge time": 4.5,
+              "sensor strenght": 35,
+              "signal range": 6500,
+              "turret slots": [
+                0,
+                3,
+                0
+              ],
+              "subsystems": 1,
+              "rig slots": [
+                0,
+                2,
+                0,
+                0
+              ],
+              "deflector": 0.5,
+              "armor": 1.5,
+              "turret damage": 0.8
+            }
+          ],
+          "eos": [
+            {
+              "ship class": "Medium",
+              "shield points": 800,
+              "shield regen": 4,
+              "hull points": 2400,
+              "hull regen": 0,
+              "energy capacity": 450,
+              "energy regen": 3.8,
+              "speed": 160,
+              "acceleration": 34,
+              "agility": 45,
+              "warp speed": 0.6,
+              "warp charge time": 4.0,
+              "sensor strenght": 35,
+              "signal range": 6500,
+              "turret slots": [
+                0,
+                3,
+                0
+              ],
+              "subsystems": 1,
+              "rig slots": [
+                0,
+                1,
+                0,
+                1
+              ],
+              "deflector": 1,
+              "armor": 2.0,
+              "turret damage": 0.8,
+              "mining rate": 1.75,
               "tractor speed": 1.5
             }
           ]
@@ -664,77 +1042,119 @@
               "warp charge time": 4.0,
               "sensor strenght": 40,
               "signal range": 8000,
-              "turret slots": [0, 6, 0],
+              "turret slots": [
+                0,
+                6,
+                0
+              ],
               "subsystems": 1,
-              "rig slots": [1, 0, 1, 2],
+              "rig slots": [
+                1,
+                0,
+                1,
+                2
+              ],
               "deflector": 1.0,
               "armor": 2
             }
           ],
-          "barracuda": [{
-            "ship class": "Medium",
-            "shield points": 2500,
-            "shield regen": 13,
-            "hull points": 6300,
-            "hull regen": 0,
-            "energy capacity": 550,
-            "energy regen": 5.2,
-            "speed": 160,
-            "acceleration": 74,
-            "agility": 55,
-            "warp speed": 0.8,
-            "warp charge time": 6.0,
-            "sensor strenght": 40,
-            "signal range": 8000,
-            "turret slots": [0, 6, 0],
-            "subsystems": 1,
-            "rig slots": [2, 1, 1, 1],
-            "deflector": 1.0,
-            "armor": 2,
-            "turret damage": 1.1
-          }],
-          "halo": [{
-            "ship class": "Medium",
-            "shield points": 3000,
-            "shield regen": 12,
-            "hull points": 4000,
-            "hull regen": 0,
-            "energy capacity": 550,
-            "energy regen": 6.0,
-            "speed": 180,
-            "acceleration": 70,
-            "agility": 65,
-            "warp speed": 1.1,
-            "warp charge time": 5.0,
-            "sensor strenght": 40,
-            "signal range": 7000,
-            "turret slots": [0, 6, 0],
-            "subsystems": 1,
-            "rig slots": [0, 0, 1, 2],
-            "deflector": 2.0,
-            "armor": 2.2
-          }],
-          "judicator": [{
-            "ship class": "Medium",
-            "shield points": 2500,
-            "shield regen": 17.5,
-            "hull points": 5500,
-            "hull regen": 0,
-            "energy capacity": 580,
-            "energy regen": 6.8,
-            "speed": 170,
-            "acceleration": 80,
-            "agility": 60,
-            "warp speed": 0.95,
-            "warp charge time": 5.0,
-            "sensor strenght": 40,
-            "signal range": 8000,
-            "turret slots": [0, 6, 0],
-            "subsystems": 2,
-            "rig slots": [0, 1, 1, 2],
-            "deflector": 3.0,
-            "armor": 2
-          }],
+          "barracuda": [
+            {
+              "ship class": "Medium",
+              "shield points": 2500,
+              "shield regen": 13,
+              "hull points": 6300,
+              "hull regen": 0,
+              "energy capacity": 550,
+              "energy regen": 5.2,
+              "speed": 160,
+              "acceleration": 74,
+              "agility": 55,
+              "warp speed": 0.8,
+              "warp charge time": 6.0,
+              "sensor strenght": 40,
+              "signal range": 8000,
+              "turret slots": [
+                0,
+                6,
+                0
+              ],
+              "subsystems": 1,
+              "rig slots": [
+                2,
+                1,
+                1,
+                1
+              ],
+              "deflector": 1.0,
+              "armor": 2,
+              "turret damage": 1.1
+            }
+          ],
+          "halo": [
+            {
+              "ship class": "Medium",
+              "shield points": 3000,
+              "shield regen": 12,
+              "hull points": 4000,
+              "hull regen": 0,
+              "energy capacity": 550,
+              "energy regen": 6.0,
+              "speed": 180,
+              "acceleration": 70,
+              "agility": 65,
+              "warp speed": 1.1,
+              "warp charge time": 5.0,
+              "sensor strenght": 40,
+              "signal range": 7000,
+              "turret slots": [
+                0,
+                6,
+                0
+              ],
+              "subsystems": 1,
+              "rig slots": [
+                0,
+                0,
+                1,
+                2
+              ],
+              "deflector": 2.0,
+              "armor": 2.2
+            }
+          ],
+          "judicator": [
+            {
+              "ship class": "Medium",
+              "shield points": 2500,
+              "shield regen": 17.5,
+              "hull points": 5500,
+              "hull regen": 0,
+              "energy capacity": 580,
+              "energy regen": 6.8,
+              "speed": 170,
+              "acceleration": 80,
+              "agility": 60,
+              "warp speed": 0.95,
+              "warp charge time": 5.0,
+              "sensor strenght": 40,
+              "signal range": 8000,
+              "turret slots": [
+                0,
+                6,
+                0
+              ],
+              "subsystems": 2,
+              "rig slots": [
+                0,
+                1,
+                1,
+                2
+              ],
+              "deflector": 3.0,
+              "armor": 2
+            }
+          ],
           "phalanx": [
             {
               "ship class": "Medium",
@@ -751,59 +1171,257 @@
               "warp charge time": 5,
               "sensor strenght": 40,
               "signal range": 8000,
-              "turret slots": [0, 6, 0],
+              "turret slots": [
+                0,
+                6,
+                0
+              ],
               "subsystems": 1,
-              "rig slots": [1, 2, 1, 0],
+              "rig slots": [
+                1,
+                2,
+                1,
+                0
+              ],
               "deflector": 1.5,
               "armor": 3.5
             }
           ],
-          "virtue": [{
-            "ship class": "Medium",
-            "shield points": 7200,
-            "shield regen":  8,
-            "hull points": 2000,
-            "hull regen": 0,
-            "energy capacity": 520,
-            "energy regen": 6.8,
-            "speed": 130,
-            "acceleration": 46,
-            "agility": 50,
-            "warp speed": 0.7,
-            "warp charge time": 6.0,
-            "sensor strenght": 40,
-            "signal range": 8000,
-            "turret slots": [0, 6, 0],
-            "subsystems": 1,
-            "rig slots": [1, 2, 1, 1],
-            "deflector": 1.0,
-            "armor": 2,
-            "turret agility": 1.75
-          }],
-          "kodiak": [{
-            "ship class": "Medium",
-            "shield points":  850,
-            "shield regen":  7,
-            "hull points": 4000,
-            "hull regen": 0,
-            "energy capacity": 550,
-            "energy regen": 6.0,
-            "speed": 120,
-            "acceleration": 26,
-            "agility": 55,
-            "warp speed": 0.7,
-            "warp charge time": 5.0,
-            "sensor strenght": 40,
-            "signal range": 8000,
-            "turret slots": [0, 4, 0],
-            "subsystems": 1,
-            "rig slots": [0, 1, 1, 1],
-            "deflector": 1.0,
-            "armor": 3,
-            "mining rate": 2,
-            "tractor speed": 1.5,
-            "max combat turrets": 4
-          }]
+          "virtue": [
+            {
+              "ship class": "Medium",
+              "shield points": 7200,
+              "shield regen": 8,
+              "hull points": 2000,
+              "hull regen": 0,
+              "energy capacity": 520,
+              "energy regen": 6.8,
+              "speed": 130,
+              "acceleration": 46,
+              "agility": 50,
+              "warp speed": 0.7,
+              "warp charge time": 6.0,
+              "sensor strenght": 40,
+              "signal range": 8000,
+              "turret slots": [
+                0,
+                6,
+                0
+              ],
+              "subsystems": 1,
+              "rig slots": [
+                1,
+                2,
+                1,
+                1
+              ],
+              "deflector": 1.0,
+              "armor": 2,
+              "turret agility": 1.75
+            }
+          ],
+          "kodiak": [
+            {
+              "ship class": "Medium",
+              "shield points": 850,
+              "shield regen": 7,
+              "hull points": 4000,
+              "hull regen": 0,
+              "energy capacity": 550,
+              "energy regen": 6.0,
+              "speed": 120,
+              "acceleration": 26,
+              "agility": 55,
+              "warp speed": 0.7,
+              "warp charge time": 5.0,
+              "sensor strenght": 40,
+              "signal range": 8000,
+              "turret slots": [
+                0,
+                4,
+                0
+              ],
+              "subsystems": 1,
+              "rig slots": [
+                0,
+                1,
+                1,
+                1
+              ],
+              "deflector": 1.0,
+              "armor": 3,
+              "mining rate": 2,
+              "tractor speed": 1.5,
+              "max combat turrets": 4
+            }
+          ],
+          "phantom": [
+            {
+              "ship class": "Medium",
+              "shield points": 1850,
+              "shield regen": 6,
+              "hull points": 2200,
+              "hull regen": 0,
+              "energy capacity": 450,
+              "energy regen": 9,
+              "speed": 170,
+              "acceleration": 40,
+              "agility": 56,
+              "warp speed": 0.85,
+              "warp charge time": 4.0,
+              "sensor strenght": 40,
+              "signal range": 4000,
+              "turret slots": [
+                0,
+                6,
+                0
+              ],
+              "subsystems": 1,
+              "rig slots": [
+                0,
+                1,
+                2,
+                1
+              ],
+              "deflector": 1,
+              "armor": 1.0,
+              "mining rate": 1.75,
+              "tractor speed": 1.5
+            }
+          ],
+          "shroud": [
+            {
+              "ship class": "Medium",
+              "shield points": 1750,
+              "shield regen": 7,
+              "hull points": 2400,
+              "hull regen": 0,
+              "energy capacity": 480,
+              "energy regen": 7.5,
+              "speed": 170,
+              "acceleration": 40,
+              "agility": 52,
+              "warp speed": 0.85,
+              "warp charge time": 4.0,
+              "sensor strenght": 40,
+              "signal range": 4500,
+              "turret slots": [
+                0,
+                4,
+                0
+              ],
+              "subsystems": 1,
+              "rig slots": [
+                0,
+                1,
+                2,
+                1
+              ],
+              "deflector": 1,
+              "armor": 2.0
+            }
+          ],
+          "galaxy": [
+            {
+              "ship class": "Medium",
+              "shield points": 1000,
+              "shield regen": 4,
+              "hull points": 3800,
+              "hull regen": 0,
+              "energy capacity": 450,
+              "energy regen": 6,
+              "speed": 120,
+              "acceleration": 28,
+              "agility": 37,
+              "warp speed": 0.65,
+              "warp charge time": 4.5,
+              "sensor strenght": 40,
+              "signal range": 8000,
+              "turret slots": [
+                0,
+                4,
+                0
+              ],
+              "subsystems": 1,
+              "rig slots": [
+                0,
+                1,
+                2,
+                1
+              ],
+              "deflector": 0.5,
+              "armor": 1.5,
+              "turret damage": 0.8
+            }
+          ],
+          "vesta": [
+            {
+              "ship class": "Medium",
+              "shield points": 1250,
+              "shield regen": 6,
+              "hull points": 4000,
+              "hull regen": 0,
+              "energy capacity": 600,
+              "energy regen": 5.4,
+              "speed": 134,
+              "acceleration": 30,
+              "agility": 41,
+              "warp speed": 0.60,
+              "warp charge time": 4.0,
+              "sensor strenght": 40,
+              "signal range": 8000,
+              "turret slots": [
+                0,
+                4,
+                0
+              ],
+              "subsystems": 1,
+              "rig slots": [
+                0,
+                1,
+                2,
+                1
+              ],
+              "deflector": 0.5,
+              "armor": 1.5,
+              "turret damage": 0.8,
+              "mining rate": 1.75,
+              "tractor speed": 1.5
+            }
+          ],
+          "zubron": [
+            {
+              "ship class": "Medium",
+              "shield points": 1500,
+              "shield regen": 4,
+              "hull points": 1800,
+              "hull regen": 0,
+              "energy capacity": 400,
+              "energy regen": 4.5,
+              "speed": 200,
+              "acceleration": 50,
+              "agility": 60,
+              "warp speed": 0.70,
+              "warp charge time": 4.0,
+              "sensor strenght": 35,
+              "signal range": 6500,
+              "turret slots": [
+                0,
+                2,
+                0
+              ],
+              "subsystems": 1,
+              "rig slots": [
+                0,
+                1,
+                2,
+                1
+              ],
+              "deflector": 1.5,
+              "armor": 1.0,
+              "turret damage": 0.8
+            }
+          ]
         }
       ],
       "destroyer": [
@@ -824,9 +1442,18 @@
               "warp charge time": 8,
               "sensor strenght": 55,
               "signal range": 10000,
-              "turret slots": [0, 3, 3],
+              "turret slots": [
+                0,
+                3,
+                3
+              ],
               "subsystems": 2,
-              "rig slots": [1, 2, 0, 1],
+              "rig slots": [
+                1,
+                2,
+                0,
+                1
+              ],
               "deflector": 2,
               "armor": 3
             }
@@ -847,9 +1474,18 @@
               "warp charge time": 7,
               "sensor strenght": 55,
               "signal range": 10000,
-              "turret slots": [0, 4, 2],
+              "turret slots": [
+                0,
+                4,
+                2
+              ],
               "subsystems": 3,
-              "rig slots": [1, 1, 1, 2],
+              "rig slots": [
+                1,
+                1,
+                1,
+                2
+              ],
               "deflector": 3.5,
               "armor": 3
             }
@@ -870,9 +1506,18 @@
               "warp charge time": 8,
               "sensor strenght": 55,
               "signal range": 10000,
-              "turret slots": [0, 4, 2],
+              "turret slots": [
+                0,
+                4,
+                2
+              ],
               "subsystems": 2,
-              "rig slots": [1, 2, 1, 1],
+              "rig slots": [
+                1,
+                2,
+                1,
+                1
+              ],
               "deflector": 2,
               "armor": 6.5
             }
@@ -893,9 +1538,18 @@
               "warp charge time": 5,
               "sensor strenght": 55,
               "signal range": 10000,
-              "turret slots": [0, 4, 2],
+              "turret slots": [
+                0,
+                4,
+                2
+              ],
               "subsystems": 2,
-              "rig slots": [2, 0, 1, 2],
+              "rig slots": [
+                2,
+                0,
+                1,
+                2
+              ],
               "deflector": 2,
               "armor": 3
             }
@@ -916,9 +1570,18 @@
               "warp charge time": 5.5,
               "sensor strenght": 55,
               "signal range": 8000,
-              "turret slots": [0, 8, 0],
+              "turret slots": [
+                0,
+                8,
+                0
+              ],
               "subsystems": 2,
-              "rig slots": [0, 1, 2, 2],
+              "rig slots": [
+                0,
+                1,
+                2,
+                2
+              ],
               "deflector": 2.5,
               "armor": 3
             }
@@ -939,9 +1602,18 @@
               "warp charge time": 8,
               "sensor strenght": 55,
               "signal range": 10000,
-              "turret slots": [0, 4, 2],
+              "turret slots": [
+                0,
+                4,
+                2
+              ],
               "subsystems": 2,
-              "rig slots": [1, 2, 1, 1],
+              "rig slots": [
+                1,
+                2,
+                1,
+                1
+              ],
               "deflector": 2.5,
               "armor": 3.5
             }
@@ -962,9 +1634,18 @@
               "warp charge time": 7,
               "sensor strenght": 55,
               "signal range": 10000,
-              "turret slots": [0, 6, 2],
+              "turret slots": [
+                0,
+                6,
+                2
+              ],
               "subsystems": 2,
-              "rig slots": [2, 1, 1, 1],
+              "rig slots": [
+                2,
+                1,
+                1,
+                1
+              ],
               "deflector": 0,
               "armor": 4
             }
@@ -985,15 +1666,125 @@
               "warp charge time": 6,
               "sensor strenght": 55,
               "signal range": 10000,
-              "turret slots": [0, 10, 0],
+              "turret slots": [
+                0,
+                10,
+                0
+              ],
               "subsystems": 1,
-              "rig slots": [0, 2, 1, 1],
+              "rig slots": [
+                0,
+                2,
+                1,
+                1
+              ],
               "deflector": 2,
               "armor": 4,
               "mining rate": 2.25,
               "tractor speed": 1.75,
               "max combat turrets": 6,
               "max mining turrets": 6
+            }
+          ],
+          "juno": [
+            {
+              "ship class": "Large",
+              "shield points": 1600,
+              "shield regen": 10,
+              "hull points": 9000,
+              "hull regen": 0,
+              "energy capacity": 750,
+              "energy regen": 9,
+              "speed": 110,
+              "acceleration": 24,
+              "agility": 22,
+              "warp speed": 0.6,
+              "warp charge time": 5,
+              "sensor strenght": 55,
+              "signal range": 8000,
+              "turret slots": [
+                0,
+                7,
+                1
+              ],
+              "subsystems": 2,
+              "rig slots": [
+                1,
+                2,
+                1,
+                0
+              ],
+              "deflector": 2,
+              "armor": 4,
+              "mining rate": 1.75,
+              "tractor speed": 1.75,
+              "max combat turrets": 4,
+              "max mining turrets": 6
+            }
+          ],
+          "andromeda": [
+            {
+              "ship class": "Large",
+              "shield points": 1200,
+              "shield regen": 6,
+              "hull points": 7600,
+              "hull regen": 0,
+              "energy capacity": 750,
+              "energy regen": 8,
+              "speed": 100,
+              "acceleration": 24,
+              "agility": 26,
+              "warp speed": 0.6,
+              "warp charge time": 5.5,
+              "sensor strenght": 35,
+              "signal range": 9000,
+              "turret slots": [
+                0,
+                3,
+                1
+              ],
+              "subsystems": 2,
+              "rig slots": [
+                1,
+                2,
+                1,
+                0
+              ],
+              "deflector": 1,
+              "armor": 2,
+              "turret damage": 0.8
+            }
+          ],
+          "mantle": [
+            {
+              "ship class": "Large",
+              "shield points": 3600,
+              "shield regen": 12.5,
+              "hull points": 7200,
+              "hull regen": 0,
+              "energy capacity": 850,
+              "energy regen": 8,
+              "speed": 130,
+              "acceleration": 30,
+              "agility": 37,
+              "warp speed": 0.8,
+              "warp charge time": 5,
+              "sensor strenght": 35,
+              "signal range": 6000,
+              "turret slots": [
+                0,
+                6,
+                0
+              ],
+              "subsystems": 2,
+              "rig slots": [
+                0,
+                2,
+                2,
+                1
+              ],
+              "deflector": 3,
+              "armor": 3
             }
           ]
         }
